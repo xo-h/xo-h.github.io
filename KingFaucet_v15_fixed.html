@@ -1,0 +1,3432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>KING FAUCET</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:14px;-webkit-text-size-adjust:100%}
+body{background:#04050f url('data:image/jpeg;base64,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') center center / cover no-repeat fixed;color:#fff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;overflow-x:hidden;min-height:100vh}
+.neon-bg{
+  background: transparent;
+  min-height:100vh;
+}
+
+/* ── HEADER ── */
+header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(4,5,15,0.92);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(110,233,255,0.12);
+}
+.hd{display:flex;align-items:center;justify-content:space-between;padding:8px 14px}
+.hd-logo{display:flex;align-items:center;gap:8px}
+.hd-icon{
+  width:30px;height:30px;border-radius:9px;
+  background:linear-gradient(135deg,rgba(110,233,255,0.25),rgba(103,232,249,0.1));
+  border:1px solid rgba(103,232,249,0.3);
+  display:flex;align-items:center;justify-content:center;
+}
+.hd-icon svg{width:14px;height:14px;stroke:#6fe9ff;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.hd-name{font-size:13px;font-weight:900;letter-spacing:0.04em}
+.hd-sub{font-size:7.5px;letter-spacing:0.25em;color:rgba(214,245,255,0.55);text-transform:uppercase;margin-top:1px}
+
+/* Header balance badge */
+.hd-bal{
+  display:flex;flex-direction:column;align-items:flex-end;gap:1px;
+  border-radius:14px;
+  border:1px solid rgba(255,100,0,0.6);
+  background:linear-gradient(135deg,rgba(20,5,0,0.98),rgba(60,15,0,0.95));
+  box-shadow:0 0 22px rgba(255,80,0,0.35),0 0 8px rgba(255,150,0,0.2),inset 0 1px 0 rgba(255,120,0,0.2);
+  padding:6px 11px;
+}
+.hd-bal-lbl{font-size:8px;text-transform:uppercase;letter-spacing:.18em;color:rgba(255,150,50,0.9);display:flex;align-items:center;gap:4px}
+.hd-bal-num{font-size:15px;font-weight:900;font-variant-numeric:tabular-nums;transition:color .3s;letter-spacing:.02em;
+  background:linear-gradient(to bottom,#ff9500,#ff4500,#ffcc00);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  filter:drop-shadow(0 0 6px rgba(255,100,0,0.5));
+}
+.hd-bal-num.pop{filter:brightness(1.5) drop-shadow(0 0 10px rgba(255,150,0,0.9));}
+
+/* ── MAIN ── */
+main{padding:14px 0 130px;max-width:100%;width:100%}
+.page{display:none}.page.active{display:block}
+.page-inner{padding:0 14px}
+
+/* ── AD SLOT ── */
+.ad{
+  border-radius:14px;border:1px solid rgba(103,232,249,0.15);
+  background:rgba(0,0,0,0.35);padding:10px;margin-bottom:14px;
+}
+.ad-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
+.ad-pill{
+  font-size:10px;display:inline-flex;align-items:center;gap:4px;
+  border-radius:99px;border:1px solid rgba(190,140,255,0.22);
+  background:rgba(190,140,255,0.08);padding:2px 9px;color:rgba(232,201,255,0.75);
+}
+.ad-resp{font-size:10px;color:rgba(214,245,255,0.40)}
+.ad-body{
+  min-height:72px;border-radius:10px;
+  border:1px dashed rgba(103,232,249,0.18);
+  background:linear-gradient(135deg,rgba(34,211,238,0.06),rgba(217,70,239,0.04),rgba(132,204,22,0.06));
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:10px;gap:3px;
+}
+.ad-body.tall{min-height:160px}
+/* ── AD SIZE SLOTS ── */
+.ad-sz-728x90{width:100%;max-width:728px;height:90px;margin:0 auto;justify-content:center}
+.ad-sz-300x250{width:300px;height:250px;margin:0 auto}
+.ad-sz-160x600{width:160px;height:600px;margin:0 auto}
+.ad-sz-320x50{width:100%;max-width:320px;height:50px;margin:0 auto;padding:4px}
+.ad-sz-300x100{width:300px;height:100px;margin:0 auto}
+.ad-sz-native{width:100%;min-height:90px;flex-direction:row;gap:10px;text-align:left;padding:12px}
+.ad-sz-native .ad-ico{width:60px;height:60px;border-radius:8px;background:rgba(103,232,249,0.1);flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.ad-sz-native .ad-ico svg{width:22px;height:22px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ad-sz-native .ad-native-txt{display:flex;flex-direction:column;gap:3px;justify-content:center}
+.ad-body svg{width:18px;height:18px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;margin-bottom:3px}
+.ad-t{font-size:11.5px;font-weight:600;color:rgba(214,245,255,0.65)}
+.ad-s{font-size:10px;color:rgba(214,245,255,0.35)}
+
+/* Full width ad (no border radius, edge to edge) */
+.ad-full{
+  width:100%;margin-bottom:14px;
+  background:rgba(0,0,0,0.5);
+  border-top:1px solid rgba(103,232,249,0.12);
+  border-bottom:1px solid rgba(103,232,249,0.12);
+  padding:10px 14px;
+}
+.ad-full .ad-body{border-radius:8px;min-height:68px}
+
+/* ── GLASS CARD ── */
+.gc{
+  border-radius:20px;
+  background:rgba(8,14,26,0.7);
+  border:1px solid rgba(103,232,249,0.12);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  padding:18px;margin-bottom:14px;
+}
+
+/* ── CLAIM BUTTONS ── */
+.claim-pair{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:14px;overflow:hidden}
+.cb{
+  border-radius:16px;padding:14px 12px;
+  display:flex;flex-direction:column;gap:8px;min-width:0;overflow:hidden;
+}
+.cb-normal{
+  background:linear-gradient(145deg,rgba(6,182,212,0.14),rgba(0,0,0,0.3));
+  border:1px solid rgba(110,233,255,0.18);
+}
+.cb-boost{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:linear-gradient(145deg,rgba(194,140,255,0.24),rgba(40,16,70,0.92) 58%,rgba(0,0,0,0.28));
+  border:1px solid rgba(214,173,255,0.34);
+  box-shadow:0 0 0 1px rgba(255,255,255,0.02),0 14px 34px rgba(160,90,255,0.16);
+}
+.cb-boost::before{
+  content:"";
+  position:absolute;inset:-1px;
+  background:radial-gradient(circle at 25% 18%,rgba(255,255,255,0.16),transparent 28%),
+             radial-gradient(circle at 85% 82%,rgba(110,233,255,0.12),transparent 30%);
+  pointer-events:none;
+}
+.cb-boost::after{
+  content:"";
+  position:absolute;inset:-30% -20%;
+  background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,0.12) 50%,transparent 65%);
+  transform:translateX(-50%) rotate(12deg);
+  animation:boostShine 3.5s linear infinite;
+  pointer-events:none;
+}
+/* ── BOOST FULL WIDTH ── */
+.cb-boost-full{
+  padding:20px 18px 16px;
+  background:linear-gradient(145deg,rgba(194,140,255,0.28),rgba(40,16,70,0.96) 55%,rgba(10,0,30,0.92));
+  border:1px solid rgba(214,173,255,0.45);
+  box-shadow:0 0 0 1px rgba(255,255,255,0.03),0 18px 40px rgba(160,90,255,0.22),0 0 60px rgba(160,90,255,0.08);
+}
+.boost-ribbon{
+  position:absolute;top:0;right:0;
+  background:linear-gradient(135deg,#ff4d4d,#ff9900);
+  color:#fff;font-size:10px;font-weight:900;letter-spacing:.1em;
+  padding:4px 14px 4px 10px;
+  border-radius:0 14px 0 12px;
+  box-shadow:0 2px 10px rgba(255,100,0,0.5);
+  z-index:2;
+}
+.btn-boost-full{
+  width:100%;padding:18px;font-size:17px;font-weight:900;
+  border-radius:16px;margin-top:4px;
+  letter-spacing:.04em;
+}
+.cb-head{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.cb-label{
+  font-size:11px;display:inline-flex;align-items:center;gap:5px;
+  border-radius:99px;padding:3px 9px;flex-shrink:0;
+}
+.cb-label.n{background:rgba(110,233,255,0.12);border:1px solid rgba(110,233,255,0.2);color:rgba(165,243,252,0.85)}
+.cb-label.b{background:rgba(190,140,255,0.12);border:1px solid rgba(190,140,255,0.2);color:rgba(240,171,252,0.85)}
+.cb-label svg{width:11px;height:11px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.cb-amt{font-size:16px;font-weight:900;letter-spacing:-.01em}
+.btn-n{
+  width:100%;border-radius:13px;padding:13px;font-size:13px;font-weight:700;
+  color:#071017;background:linear-gradient(135deg,#89f2ff,#c2fbff);
+  border:none;cursor:pointer;
+  box-shadow:none;
+}
+.btn-b{
+  position:relative;
+  width:100%;border-radius:13px;padding:13px;font-size:13px;font-weight:800;
+  color:#240a31;
+  background:linear-gradient(135deg,#f6d3ff 0%,#c98cff 38%,#ff9ee0 72%,#ffe8a8 100%);
+  border:none;cursor:pointer;
+  box-shadow:0 14px 28px rgba(190,140,255,0.34),0 0 0 1px rgba(255,255,255,0.22),inset 0 1px 0 rgba(255,255,255,0.45);
+  overflow:hidden;
+  animation:boostPulse 1.8s ease-in-out infinite, boostFloat 4.8s ease-in-out infinite;
+}
+.btn-b::before{
+  content:"";
+  position:absolute;inset:-35%;
+  background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,0.6) 50%,transparent 70%);
+  transform:translateX(-120%) rotate(10deg);
+  animation:boostShine 2.7s linear infinite;
+}
+.btn-b::after{
+  content:"";
+  position:absolute;inset:2px;
+  border-radius:11px;
+  border:1px solid rgba(255,255,255,0.18);
+  pointer-events:none;
+}
+.btn-dis{
+  width:100%;border-radius:13px;padding:13px;font-size:13px;font-weight:700;
+  color:rgba(255,255,255,0.25);background:rgba(255,255,255,0.07);border:none;cursor:not-allowed;
+}
+/* ── CRYSTAL WIDGETS ── */
+.iw-crystal{
+  border-radius:14px;padding:12px 14px;
+  display:flex;align-items:center;gap:12px;
+  margin-bottom:10px;
+  will-change:auto;
+  transition:transform .15s,box-shadow .15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.iw-crystal:active{transform:scale(0.97)}
+.iw-cyan{background:linear-gradient(135deg,rgba(110,233,255,0.13),rgba(0,20,40,0.88));border:1px solid rgba(110,233,255,0.28);box-shadow:0 0 18px rgba(110,233,255,0.08)}
+.iw-lime{background:linear-gradient(135deg,rgba(215,255,99,0.12),rgba(10,20,0,0.88));border:1px solid rgba(215,255,99,0.28);box-shadow:0 0 18px rgba(215,255,99,0.08)}
+.iw-violet{background:linear-gradient(135deg,rgba(190,140,255,0.13),rgba(20,0,40,0.88));border:1px solid rgba(190,140,255,0.28);box-shadow:0 0 18px rgba(190,140,255,0.08)}
+.iw-amber{background:linear-gradient(135deg,rgba(255,189,115,0.12),rgba(30,10,0,0.88));border:1px solid rgba(255,189,115,0.25);box-shadow:0 0 18px rgba(255,150,50,0.07)}
+.iw-icon-crystal{
+  width:42px;height:42px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;flex-shrink:0;
+}
+.iw-ic-cyan{background:rgba(110,233,255,0.15);border:1px solid rgba(110,233,255,0.3);box-shadow:0 0 12px rgba(110,233,255,0.2)}
+.iw-ic-lime{background:rgba(215,255,99,0.13);border:1px solid rgba(215,255,99,0.3);box-shadow:0 0 12px rgba(215,255,99,0.18)}
+.iw-ic-violet{background:rgba(190,140,255,0.15);border:1px solid rgba(190,140,255,0.3);box-shadow:0 0 12px rgba(190,140,255,0.2)}
+.iw-ic-amber{background:rgba(255,189,115,0.13);border:1px solid rgba(255,189,115,0.28);box-shadow:0 0 12px rgba(255,150,50,0.18)}
+
+/* ── PERFORMANCE: reduce paint & layout ── */
+*{-webkit-tap-highlight-color:transparent}
+img,svg{content-visibility:auto}
+.ad-body{contain:layout style}
+.gc,.ad,.info-widget,.iw-crystal{contain:layout style}
+@keyframes saleBannerScroll{0%{background-position:0% center}100%{background-position:200% center}}
+@keyframes pglow{0%,100%{box-shadow:0 0 0 0 rgba(34,211,238,.35)}50%{box-shadow:0 0 0 8px rgba(34,211,238,0)}}
+@keyframes boostPulse{
+  0%,100%{filter:saturate(1.02) brightness(1)}
+  50%{filter:saturate(1.1) brightness(1.05)}
+}
+@keyframes boostFloat{
+  0%,100%{box-shadow:0 14px 28px rgba(190,140,255,0.34),0 0 0 1px rgba(255,255,255,0.22),inset 0 1px 0 rgba(255,255,255,0.45)}
+  50%{box-shadow:0 16px 32px rgba(255,140,230,0.36),0 0 0 1px rgba(255,255,255,0.26),inset 0 1px 0 rgba(255,255,255,0.48)}
+}
+@keyframes boostShine{
+  0%{transform:translateX(-120%) rotate(10deg)}
+  100%{transform:translateX(120%) rotate(10deg)}
+}
+
+/* ── READY BADGE ── */
+.ready{
+  display:flex;align-items:center;justify-content:space-between;
+  background:rgba(0,0,0,0.25);border-radius:14px;
+  border:1px solid rgba(110,233,255,0.15);padding:12px 15px;
+  margin-bottom:12px;
+}
+.ready-l{font-size:12px;color:rgba(214,245,255,0.70);display:flex;align-items:center;gap:7px}
+.ready-l svg{width:14px;height:14px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#ready-txt{font-size:13px;font-weight:700}
+
+/* ── PROGRESS ── */
+.prog-wrap{background:rgba(0,0,0,0.25);border:1px solid rgba(110,233,255,0.12);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.prog-hd{display:flex;justify-content:space-between;font-size:11.5px;color:rgba(214,245,255,0.60);margin-bottom:8px}
+.prog-track{height:10px;border-radius:99px;background:rgba(255,255,255,0.06);overflow:hidden}
+.prog-bar{height:100%;border-radius:99px;background:linear-gradient(to right,#6fe9ff,#be8cff,#d7ff63);transition:width .6s}
+
+/* ── CAPTCHA OVERLAY ── */
+.captcha-overlay{
+  display:none;
+  position:fixed;inset:0;z-index:200;
+  background:rgba(0,0,0,0.85);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  align-items:center;justify-content:center;
+}
+.captcha-overlay.show{display:flex}
+.captcha-box{
+  width:92%;max-width:380px;
+  background:linear-gradient(145deg,#0a1020,#04050f);
+  border:1px solid rgba(255,200,0,0.3);
+  border-radius:24px;padding:22px 20px 20px;
+  box-shadow:0 0 50px rgba(255,180,0,0.18),0 20px 60px rgba(0,0,0,0.6);
+}
+.captcha-title{
+  font-size:15px;font-weight:900;color:#ffd700;
+  display:flex;align-items:center;gap:8px;margin-bottom:5px;
+}
+.captcha-title svg{width:20px;height:20px;stroke:#ffd700;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.captcha-sub{font-size:11px;color:rgba(214,245,255,0.50);margin-bottom:20px}
+.captcha-track-wrap{
+  background:rgba(0,0,0,0.4);border:1px solid rgba(255,200,0,0.2);
+  border-radius:99px;padding:4px;margin-bottom:16px;position:relative;overflow:hidden;
+  height:52px;display:flex;align-items:center;
+}
+.captcha-track-fill{
+  position:absolute;left:0;top:0;height:100%;width:0%;
+  background:linear-gradient(to right,rgba(255,180,0,0.15),rgba(255,215,0,0.25));
+  border-radius:99px;transition:width .1s;
+}
+.captcha-track-label{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  font-size:11.5px;font-weight:600;color:rgba(255,255,255,0.35);
+  pointer-events:none;white-space:nowrap;
+}
+.captcha-slider{
+  position:relative;z-index:2;
+  width:44px;height:44px;border-radius:14px;
+  background:linear-gradient(135deg,#ffd700,#ff9900);
+  border:none;cursor:grab;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 2px 12px rgba(255,180,0,0.5);
+  flex-shrink:0;touch-action:none;
+  transition:box-shadow .2s;
+}
+.captcha-slider:active{cursor:grabbing;box-shadow:0 4px 20px rgba(255,180,0,0.8)}
+.captcha-slider svg{width:20px;height:20px;stroke:#000;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.captcha-success{
+  display:none;text-align:center;padding:8px 0;
+  font-size:14px;font-weight:700;color:#a8ffbe;
+}
+.captcha-hint{font-size:10.5px;color:rgba(214,245,255,0.35);text-align:center}
+
+/* ── SECTION HDR ── */
+.shdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.shdr-l .sm{font-size:9.5px;text-transform:uppercase;letter-spacing:.15em;color:rgba(214,245,255,0.45);margin-bottom:3px}
+.shdr-l .big{font-size:21px;font-weight:900}
+.shdr svg{width:22px;height:22px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* ── RULES ── */
+.rules{border-radius:14px;border:1px solid rgba(132,204,22,0.18);background:rgba(132,204,22,0.07);padding:14px}
+.rules-hd{font-size:12.5px;font-weight:700;color:#e7ff9a;display:flex;align-items:center;gap:7px;margin-bottom:8px}
+.rules-hd svg{width:13px;height:13px;stroke:#e7ff9a;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rules ul{list-style:none;display:flex;flex-direction:column;gap:4px}
+.rules li{font-size:11.5px;color:rgba(236,252,203,0.75)}
+
+/* ── WITHDRAW ── */
+.field-l{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:rgba(214,245,255,0.45);display:block;margin-bottom:6px}
+.field-i{
+  width:100%;border-radius:14px;border:1px solid rgba(255,255,255,0.1);
+  background:rgba(0,0,0,0.3);padding:12px 15px;color:#fff;
+  font-size:14px;margin-bottom:14px;-webkit-appearance:none;
+}
+.field-i:focus{outline:none;border-color:rgba(34,211,238,0.4)}
+.field-ta{
+  width:100%;border-radius:14px;border:1px solid rgba(255,255,255,0.1);
+  background:rgba(0,0,0,0.3);padding:12px 15px;color:#fff;
+  font-size:14px;margin-bottom:14px;resize:none;font-family:inherit;
+}
+.field-ta:focus{outline:none;border-color:rgba(34,211,238,0.4)}
+.method-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.mth{
+  border-radius:14px;border:1px solid rgba(255,255,255,0.1);
+  background:rgba(255,255,255,0.035);padding:13px;text-align:left;
+  cursor:pointer;color:#fff;width:100%;transition:all .2s;
+}
+.mth.sel{border-color:rgba(34,211,238,0.45);background:rgba(34,211,238,0.1)}
+.mth-name{font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:space-between}
+.mth-name svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.mth-sub{font-size:10.5px;color:rgba(214,245,255,0.45);margin-top:3px}
+.bal-row{
+  display:flex;align-items:center;justify-content:space-between;
+  border:1px solid rgba(110,233,255,0.18);background:rgba(0,0,0,0.28);
+  border-radius:16px;padding:15px;margin-bottom:16px;
+}
+.bal-row svg{width:26px;height:26px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.input-row{display:flex;gap:8px;margin-bottom:14px}
+.input-row .field-i{margin-bottom:0;flex:1}
+.btn-save{
+  border-radius:14px;border:1px solid rgba(110,233,255,0.28);
+  background:rgba(34,211,238,0.1);padding:12px 15px;
+  font-size:13px;font-weight:600;color:#6fe9ff;cursor:pointer;white-space:nowrap;
+}
+
+/* ── HISTORY ── */
+.log{
+  display:flex;align-items:center;justify-content:space-between;
+  border-radius:14px;border:1px solid rgba(255,255,255,0.06);
+  padding:12px 14px;background:rgba(255,255,255,0.035);margin-bottom:9px;
+}
+.log-left{display:flex;align-items:center;gap:11px}
+.log-ico{
+  width:36px;height:36px;border-radius:11px;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.log-ico svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.log-ico.s{background:rgba(110,233,255,0.12);color:#6fe9ff}
+.log-ico.b{background:rgba(190,140,255,0.12);color:#be8cff}
+.log-ico.w{background:rgba(132,204,22,0.12);color:#a8ffbe}
+.log-ico.p{background:rgba(250,204,21,0.12);color:#fde047}
+.log-name{font-size:13px;font-weight:600}
+.log-time{font-size:10.5px;color:rgba(214,245,255,0.45);margin-top:2px}
+.log-r{text-align:right}
+.log-amt{font-size:13px;font-weight:700;color:#d6fbff}
+.log-st{font-size:10.5px;margin-top:2px}
+.ls{color:#a8ffbe}.lp{color:#fde047}.lf{color:#f87171}
+.empty{padding:40px;text-align:center;color:rgba(214,245,255,0.35);font-size:13px}
+
+/* ── PROFILE ── */
+.prof-hd{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.prof-av{
+  width:58px;height:58px;border-radius:16px;flex-shrink:0;
+  background:linear-gradient(135deg,rgba(190,140,255,0.2),rgba(103,232,249,0.1));
+  border:1px solid rgba(190,140,255,0.3);
+  display:flex;align-items:center;justify-content:center;
+}
+.prof-av svg{width:28px;height:28px;stroke:#e8c9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.prof-name{font-size:21px;font-weight:900}
+.prof-uid{font-size:11px;color:rgba(214,245,255,0.45);margin-top:2px}
+.ver-badge{
+  display:inline-flex;align-items:center;gap:4px;margin-top:6px;
+  border-radius:99px;border:1px solid rgba(110,233,255,0.2);
+  background:rgba(34,211,238,0.08);padding:3px 9px;
+  font-size:10.5px;color:#d6fbff;
+}
+.ver-badge svg{width:11px;height:11px;stroke:#d6fbff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.pstat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.pstat{border-radius:14px;border:1px solid rgba(255,255,255,0.06);padding:13px;background:rgba(255,255,255,0.035)}
+.pstat-l{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:rgba(214,245,255,0.45);margin-bottom:4px}
+.pstat-v{font-size:17px;font-weight:700}
+.wallet-box{border-radius:14px;border:1px solid rgba(110,233,255,0.18);background:rgba(0,0,0,0.28);padding:15px}
+.wallet-l{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:rgba(214,245,255,0.45);margin-bottom:6px}
+.wallet-addr{font-family:monospace;font-size:11.5px;color:#d6fbff;word-break:break-all;margin-bottom:11px;line-height:1.5}
+.btn-oc{
+  width:100%;border-radius:12px;border:1px solid rgba(110,233,255,0.2);
+  background:rgba(34,211,238,0.08);padding:10px;
+  font-size:12.5px;font-weight:500;color:#d6fbff;cursor:pointer;
+}
+
+/* ── BTN GRADIENT ── */
+.btn-g{
+  width:100%;border-radius:14px;padding:13px;font-size:14px;font-weight:700;
+  color:#000;background:linear-gradient(to right,#6fe9ff,#be8cff,#d7ff63);
+  border:none;cursor:pointer;
+}
+
+/* ── REFERRAL PAGE ── */
+.ref-hero{
+  border-radius:20px;
+  background:linear-gradient(135deg,rgba(110,233,255,0.12),rgba(190,140,255,0.12));
+  border:1px solid rgba(103,232,249,0.2);
+  padding:22px 18px;margin-bottom:14px;text-align:center;
+}
+.ref-hero-icon{
+  width:56px;height:56px;border-radius:16px;margin:0 auto 12px;
+  background:linear-gradient(135deg,rgba(110,233,255,0.25),rgba(190,140,255,0.2));
+  border:1px solid rgba(103,232,249,0.3);
+  display:flex;align-items:center;justify-content:center;
+}
+.ref-hero-icon svg{width:26px;height:26px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ref-hero h2{font-size:20px;font-weight:900;margin-bottom:6px}
+.ref-hero p{font-size:12px;color:rgba(214,245,255,0.65);line-height:1.6}
+
+.ref-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px;margin-bottom:14px}
+.ref-stat{
+  border-radius:14px;border:1px solid rgba(255,255,255,0.06);
+  background:rgba(255,255,255,0.035);padding:12px 10px;text-align:center;
+}
+.ref-stat-v{font-size:18px;font-weight:900;color:#d6fbff}
+.ref-stat-l{font-size:9.5px;text-transform:uppercase;letter-spacing:.07em;color:rgba(214,245,255,0.40);margin-top:3px}
+
+.ref-link-box{
+  border-radius:14px;border:1px solid rgba(110,233,255,0.2);
+  background:rgba(0,0,0,0.3);padding:14px;margin-bottom:14px;
+}
+.ref-link-lbl{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:rgba(214,245,255,0.45);margin-bottom:8px}
+.ref-link-val{
+  font-family:monospace;font-size:12px;color:#d6fbff;
+  word-break:break-all;background:rgba(34,211,238,0.06);
+  border:1px solid rgba(110,233,255,0.15);border-radius:10px;
+  padding:10px 12px;margin-bottom:10px;line-height:1.5;
+}
+.ref-copy-btn{
+  width:100%;border-radius:12px;border:1px solid rgba(110,233,255,0.25);
+  background:rgba(34,211,238,0.1);padding:11px;
+  font-size:13px;font-weight:600;color:#6fe9ff;cursor:pointer;
+}
+
+/* Share buttons row */
+.share-row{display:flex;flex-direction:column;gap:9px;margin-bottom:14px}
+.share-btn{
+  display:flex;align-items:center;gap:12px;
+  border-radius:14px;border:1px solid rgba(255,255,255,0.1);
+  background:rgba(255,255,255,0.035);padding:13px 15px;
+  cursor:pointer;color:#fff;width:100%;transition:all .2s;text-align:left;
+}
+.share-btn:active{transform:scale(0.98)}
+.share-ico{
+  width:38px;height:38px;border-radius:11px;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-size:19px;
+}
+.share-btn-txt{flex:1}
+.share-btn-name{font-size:14px;font-weight:700}
+.share-btn-sub{font-size:11px;color:rgba(214,245,255,0.45);margin-top:2px}
+.share-btn svg.arr{width:14px;height:14px;stroke:rgba(165,243,252,0.25);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+
+.sh-wa{background:rgba(37,211,102,0.08);border-color:rgba(37,211,102,0.2)}
+.sh-wa .share-ico{background:rgba(37,211,102,0.15)}
+.sh-tg{background:rgba(0,136,204,0.08);border-color:rgba(0,136,204,0.2)}
+.sh-tg .share-ico{background:rgba(0,136,204,0.15)}
+.sh-ig{background:rgba(225,48,108,0.08);border-color:rgba(225,48,108,0.2)}
+.sh-ig .share-ico{background:rgba(225,48,108,0.15)}
+.sh-tw{background:rgba(29,161,242,0.08);border-color:rgba(29,161,242,0.2)}
+.sh-tw .share-ico{background:rgba(29,161,242,0.15)}
+.sh-rd{background:rgba(255,69,0,0.08);border-color:rgba(255,69,0,0.2)}
+.sh-rd .share-ico{background:rgba(255,69,0,0.15)}
+.sh-fb{background:rgba(24,119,242,0.08);border-color:rgba(24,119,242,0.2)}
+.sh-fb .share-ico{background:rgba(24,119,242,0.15)}
+
+/* Reward info card */
+.ref-reward-card{
+  border-radius:16px;
+  background:linear-gradient(135deg,rgba(132,204,22,0.1),rgba(34,211,238,0.07));
+  border:1px solid rgba(132,204,22,0.2);
+  padding:16px;margin-bottom:14px;
+}
+.ref-reward-hd{font-size:13px;font-weight:700;color:#e7ff9a;display:flex;align-items:center;gap:7px;margin-bottom:10px}
+.ref-reward-hd svg{width:14px;height:14px;stroke:#e7ff9a;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ref-reward-rows{display:flex;flex-direction:column;gap:7px}
+.ref-reward-row{
+  display:flex;align-items:center;justify-content:space-between;
+  background:rgba(0,0,0,0.2);border-radius:10px;padding:10px 13px;
+}
+.ref-reward-row-l{font-size:12px;color:rgba(165,243,252,0.75)}
+.ref-reward-row-v{font-size:13px;font-weight:800;color:#d7ff63}
+
+/* Referral list */
+.ref-list{display:flex;flex-direction:column;gap:9px;margin-top:4px}
+.ref-item{
+  display:flex;align-items:center;justify-content:space-between;
+  border-radius:14px;border:1px solid rgba(255,255,255,0.06);
+  padding:12px 14px;background:rgba(255,255,255,0.035);
+}
+.ref-item-l{display:flex;align-items:center;gap:10px}
+.ref-item-av{
+  width:34px;height:34px;border-radius:10px;flex-shrink:0;
+  background:linear-gradient(135deg,rgba(110,233,255,0.2),rgba(190,140,255,0.15));
+  border:1px solid rgba(103,232,249,0.2);
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;font-weight:900;color:#d6fbff;
+}
+.ref-item-name{font-size:13px;font-weight:600}
+.ref-item-sub{font-size:10.5px;color:rgba(214,245,255,0.45);margin-top:2px}
+.ref-item-r{text-align:right}
+.ref-item-earned{font-size:13px;font-weight:700;color:#a8ffbe}
+.ref-item-claims{font-size:10.5px;color:rgba(214,245,255,0.40);margin-top:2px}
+.ref-badge{
+  display:inline-flex;align-items:center;padding:2px 7px;border-radius:99px;
+  font-size:10px;font-weight:600;
+}
+.ref-badge.done{background:rgba(134,239,172,0.15);border:1px solid rgba(134,239,172,0.3);color:#a8ffbe}
+.ref-badge.prog{background:rgba(250,204,21,0.12);border:1px solid rgba(250,204,21,0.25);color:#fde047}
+
+
+/* ── REFERRAL UPGRADE (scoped only to referral page) ── */
+#page-referral .ad-full{
+  padding:12px 14px 14px;
+}
+#page-referral .ad-full .ad-body{
+  min-height:250px;
+  border-radius:20px;
+  background:
+    radial-gradient(circle at 20% 15%,rgba(103,232,249,0.14),transparent 28%),
+    radial-gradient(circle at 80% 85%,rgba(217,70,239,0.14),transparent 30%),
+    linear-gradient(145deg,rgba(11,18,34,0.98),rgba(10,8,24,0.92));
+  border:1px solid rgba(103,232,249,0.18);
+  box-shadow:0 18px 50px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.035);
+}
+#page-referral .ad-full .ad-t{font-size:13px;font-weight:800;letter-spacing:.02em}
+#page-referral .ad-full .ad-s{font-size:11px;color:rgba(214,245,255,0.50)}
+
+#page-referral .page-inner{
+  padding-top:2px;
+}
+
+#page-referral .ref-hero{
+  position:relative;
+  overflow:hidden;
+  border-radius:24px;
+  padding:22px 18px 18px;
+  background:
+    radial-gradient(circle at 20% 15%,rgba(103,232,249,0.16),transparent 26%),
+    radial-gradient(circle at 80% 10%,rgba(217,70,239,0.14),transparent 26%),
+    linear-gradient(145deg,rgba(18,24,44,0.96),rgba(8,10,22,0.95));
+  border:1px solid rgba(103,232,249,0.18);
+  box-shadow:0 18px 50px rgba(0,0,0,0.35);
+}
+#page-referral .ref-hero::after{
+  content:"";
+  position:absolute;inset:-2px;
+  background:linear-gradient(135deg,transparent 0%,rgba(103,232,249,0.09) 45%,transparent 100%);
+  pointer-events:none;
+}
+#page-referral .ref-hero-icon{
+  position:relative;z-index:1;
+  box-shadow:0 0 0 1px rgba(103,232,249,0.1), 0 12px 30px rgba(103,232,249,0.08);
+}
+#page-referral .ref-hero h2,
+#page-referral .ref-hero p{
+  position:relative;z-index:1;
+}
+#page-referral .ref-hero h2{
+  font-size:22px;
+  letter-spacing:-0.02em;
+}
+#page-referral .ref-hero p{
+  font-size:12.5px;
+  color:rgba(197,240,255,0.78);
+}
+
+#page-referral .ref-badge-row{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin:-2px 0 14px;
+}
+#page-referral .ref-badge-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:8px 12px;
+  border-radius:999px;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.01em;
+  border:1px solid rgba(255,255,255,0.06);
+  background:rgba(255,255,255,0.05);
+  color:#d9f5ff;
+}
+#page-referral .ref-badge-chip i{
+  width:7px;height:7px;border-radius:50%;display:inline-block;background:#6fe9ff;
+  box-shadow:0 0 10px rgba(103,232,249,0.7);
+}
+#page-referral .ref-badge-chip.p i{background:#be8cff;box-shadow:0 0 10px rgba(232,121,249,0.7);}
+#page-referral .ref-badge-chip.g i{background:#d7ff63;box-shadow:0 0 10px rgba(190,242,100,0.7);}
+
+#page-referral .ref-stats{
+  margin-bottom:12px;
+}
+#page-referral .ref-stat{
+  position:relative;
+  overflow:hidden;
+  border-radius:16px;
+  padding:14px 10px;
+  background:
+    linear-gradient(145deg,rgba(255,255,255,0.05),rgba(255,255,255,0.03)),
+    rgba(255,255,255,0.035);
+  border:1px solid rgba(255,255,255,0.06);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.03);
+}
+#page-referral .ref-stat::before{
+  content:"";
+  position:absolute;inset:0;
+  background:linear-gradient(120deg,transparent 0%,rgba(103,232,249,0.08) 50%,transparent 100%);
+  pointer-events:none;
+}
+#page-referral .ref-stat-v{
+  position:relative;z-index:1;
+  font-size:20px;
+  background:linear-gradient(to bottom,#ffffff,#befcff);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+#page-referral .ref-stat-l{
+  position:relative;z-index:1;
+  letter-spacing:.09em;
+}
+
+#page-referral .ref-metrics-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin:0 0 14px;
+}
+#page-referral .ref-metric{
+  border-radius:16px;
+  padding:12px 10px;
+  background:linear-gradient(145deg,rgba(10,16,30,0.9),rgba(15,10,28,0.9));
+  border:1px solid rgba(103,232,249,0.12);
+  box-shadow:0 10px 24px rgba(0,0,0,0.22);
+}
+#page-referral .ref-metric .k{
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  color:rgba(165,243,252,0.42);
+  margin-bottom:7px;
+}
+#page-referral .ref-metric .v{
+  font-size:13px;
+  line-height:1.35;
+  color:#e8fbff;
+  font-weight:700;
+}
+#page-referral .ref-metric .v b{
+  color:#d7ff63;
+}
+
+#page-referral .ref-reward-card{
+  background:linear-gradient(145deg,rgba(132,204,22,0.11),rgba(34,211,238,0.08),rgba(217,70,239,0.06));
+  border:1px solid rgba(132,204,22,0.18);
+  box-shadow:0 16px 40px rgba(0,0,0,0.24);
+}
+#page-referral .ref-reward-row{
+  border:1px solid rgba(255,255,255,0.05);
+  background:rgba(0,0,0,0.18);
+}
+
+#page-referral .ref-link-box{
+  background:linear-gradient(145deg,rgba(0,0,0,0.34),rgba(103,232,249,0.06));
+  border:1px solid rgba(110,233,255,0.18);
+  box-shadow:0 14px 36px rgba(0,0,0,0.2);
+}
+#page-referral .ref-link-val{
+  border-radius:12px;
+  background:rgba(103,232,249,0.06);
+  border-color:rgba(103,232,249,0.14);
+}
+
+#page-referral .ref-share-strip{
+  border-radius:18px;
+  padding:14px;
+  margin-bottom:14px;
+  background:linear-gradient(145deg,rgba(6,182,212,0.08),rgba(190,140,255,0.08));
+  border:1px solid rgba(103,232,249,0.14);
+  box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+#page-referral .ref-share-strip .mini-title{
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  color:rgba(165,243,252,0.42);
+  margin-bottom:8px;
+}
+#page-referral .ref-share-strip .mini-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:8px;
+}
+#page-referral .ref-share-strip .mini-card{
+  border-radius:14px;
+  padding:10px 10px 11px;
+  background:rgba(0,0,0,0.2);
+  border:1px solid rgba(255,255,255,0.05);
+}
+#page-referral .ref-share-strip .mini-card .n{
+  font-size:12px;
+  font-weight:800;
+  color:#e8fbff;
+  margin-bottom:4px;
+}
+#page-referral .ref-share-strip .mini-card .s{
+  font-size:10.5px;
+  color:rgba(165,243,252,0.46);
+  line-height:1.45;
+}
+
+#page-referral .ref-cta-glow{
+  margin-bottom:14px;
+  padding:14px 14px 12px;
+  border-radius:18px;
+  background:
+    radial-gradient(circle at 15% 20%,rgba(34,211,238,0.14),transparent 20%),
+    radial-gradient(circle at 85% 80%,rgba(190,242,100,0.12),transparent 24%),
+    linear-gradient(145deg,rgba(8,14,26,0.92),rgba(12,8,24,0.9));
+  border:1px solid rgba(103,232,249,0.14);
+}
+#page-referral .ref-cta-glow .line1{
+  font-size:12px;
+  color:#d6fbff;
+  margin-bottom:6px;
+}
+#page-referral .ref-cta-glow .line2{
+  font-size:18px;
+  font-weight:900;
+  letter-spacing:-.02em;
+}
+#page-referral .ref-cta-glow .line2 span{
+  color:#d7ff63;
+}
+
+#page-referral .gc.ref-network{
+  background:linear-gradient(145deg,rgba(8,14,26,0.72),rgba(12,8,24,0.7));
+  border-color:rgba(103,232,249,0.14);
+}
+
+/* ── STICKY AD ── */
+.sticky-ad{
+  position:fixed;bottom:62px;left:0;right:0;z-index:35;
+  background:rgba(4,5,15,0.96);
+  border-top:1px solid rgba(110,233,255,0.15);
+  padding:7px 14px;display:flex;align-items:center;gap:10px;
+}
+.sticky-ad-lbl{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:rgba(214,245,255,0.35);white-space:nowrap}
+.sticky-ad-in{
+  flex:1;height:38px;border-radius:8px;
+  border:1px dashed rgba(110,233,255,0.2);background:rgba(34,211,238,0.04);
+  display:flex;align-items:center;justify-content:center;
+}
+.sticky-ad-in span{font-size:11px;color:rgba(214,245,255,0.40)}
+.sticky-close{
+  background:rgba(255,255,255,0.06);border:none;color:rgba(255,255,255,0.4);
+  border-radius:50%;width:22px;height:22px;cursor:pointer;font-size:11px;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+
+/* ── BOTTOM NAV ── */
+.bnav{
+  position:fixed;bottom:0;left:0;right:0;z-index:40;
+  border-top:1px solid rgba(110,233,255,0.15);
+  background:rgba(4,5,15,0.97);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+}
+.bnav-in{display:grid;grid-template-columns:repeat(5,1fr);padding:5px 2px 8px}
+.nb{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:8px 4px;border-radius:14px;background:transparent;border:none;cursor:pointer;gap:3px;
+}
+.nb.active{background:rgba(110,233,255,0.12)}
+.nb svg{width:22px;height:22px;fill:none;stroke:rgba(214,245,255,0.35);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.nb.active svg{stroke:#6fe9ff}
+.nb span{font-size:9.5px;font-weight:500;color:rgba(214,245,255,0.35)}
+.nb.active span{color:#d6fbff}
+
+/* ── SHARE SHEET ── */
+.share-sheet-overlay{
+  display:none;position:fixed;inset:0;z-index:300;
+  background:rgba(0,0,0,0.75);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  align-items:flex-end;justify-content:center;
+}
+.share-sheet-overlay.show{display:flex}
+.share-sheet{
+  width:100%;max-width:480px;
+  background:linear-gradient(180deg,#0d1525,#070c18);
+  border-top:1px solid rgba(103,232,249,0.2);
+  border-radius:24px 24px 0 0;
+  padding:0 0 30px;
+  animation:sheetUp .3s cubic-bezier(0.34,1.56,0.64,1);
+}
+@keyframes sheetUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.share-sheet-handle{width:40px;height:4px;border-radius:99px;background:rgba(255,255,255,0.15);margin:12px auto 0}
+.share-sheet-title{font-size:11px;text-transform:uppercase;letter-spacing:.15em;color:rgba(214,245,255,0.40);text-align:center;margin:14px 0 6px;padding:0 20px}
+.share-sheet-head{font-size:20px;font-weight:900;text-align:center;margin-bottom:16px;padding:0 20px}
+.share-sheet-link{
+  margin:0 16px 16px;background:rgba(34,211,238,0.06);
+  border:1px solid rgba(110,233,255,0.15);border-radius:12px;
+  padding:10px 14px;display:flex;align-items:center;gap:10px;
+}
+.share-sheet-link-txt{flex:1;font-family:monospace;font-size:11px;color:#d6fbff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.share-sheet-copy-btn{
+  background:rgba(110,233,255,0.15);border:1px solid rgba(110,233,255,0.3);
+  border-radius:8px;padding:5px 10px;font-size:11px;font-weight:600;color:#6fe9ff;cursor:pointer;white-space:nowrap;
+}
+.share-apps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:0 16px 16px}
+.share-app-btn{
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  background:rgba(255,255,255,0.035);border:1px solid rgba(255,255,255,0.06);
+  border-radius:14px;padding:12px 8px;cursor:pointer;color:#fff;
+}
+.share-app-btn:active{transform:scale(0.94);background:rgba(255,255,255,0.06)}
+.share-app-ico{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px}
+.share-app-name{font-size:10px;font-weight:600;color:rgba(165,243,252,0.75)}
+.share-sheet-more{display:flex;gap:10px;padding:0 16px}
+.share-sheet-native-btn{
+  flex:1;border-radius:14px;padding:13px;font-size:14px;font-weight:700;
+  color:#000;background:linear-gradient(to right,#6fe9ff,#be8cff,#d7ff63);
+  border:none;cursor:pointer;
+}
+.share-sheet-cancel{
+  border-radius:14px;padding:13px 16px;font-size:14px;font-weight:600;
+  color:rgba(214,245,255,0.60);background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);cursor:pointer;
+}
+/* ── CLICK COUNTER PILL ── */
+.click-badge{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:10px;font-weight:700;border-radius:99px;
+  padding:3px 8px;align-self:flex-start;
+}
+.click-badge.n{background:rgba(110,233,255,0.12);border:1px solid rgba(110,233,255,0.25);color:#d6fbff}
+.click-badge.b{background:rgba(190,140,255,0.12);border:1px solid rgba(190,140,255,0.25);color:#e8c9ff}
+.click-counter-track{
+  width:100%;height:5px;border-radius:99px;background:rgba(255,255,255,0.06);
+  overflow:hidden;
+}
+.click-counter-fill-n{height:100%;border-radius:99px;background:#6fe9ff;transition:width .3s}
+.click-counter-fill-b{height:100%;border-radius:99px;background:#be8cff;transition:width .3s}
+.cb-hint{font-size:9px;color:rgba(214,245,255,0.35);text-align:left}
+.cb-hint.b{color:rgba(240,171,252,0.35)}
+/* pending click dots */
+.click-dots{display:flex;gap:5px;align-items:center}
+.click-dot{
+  width:9px;height:9px;border-radius:50%;
+  background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.15);
+  transition:all .2s;
+}
+.click-dot.active-n{background:#6fe9ff;border-color:#6fe9ff;box-shadow:0 0 6px rgba(34,211,238,0.7)}
+.click-dot.active-b{background:#be8cff;border-color:#be8cff;box-shadow:0 0 6px rgba(232,121,249,0.7)}
+
+@keyframes coinPop{0%{transform:translateY(0) scale(1);opacity:1}100%{transform:translateY(-60px) scale(1.4);opacity:0}}
+.coin-pop{
+  position:fixed;pointer-events:none;z-index:999;
+  font-size:18px;font-weight:900;color:#6fe9ff;
+  text-shadow:0 0 10px rgba(34,211,238,0.8);
+  animation:coinPop .7s ease-out forwards;
+}
+
+/* ── HISTORY SKYSCRAPER LAYOUT ── */
+.history-layout{
+  display:flex;
+  align-items:flex-start;
+  gap:0;
+  width:100%;
+  padding-bottom:130px;
+}
+.sky-col{
+  width:44px;
+  flex-shrink:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:8px;
+  position:sticky;
+  top:60px;
+}
+.sky-left{ padding-left:4px; }
+.sky-right{ padding-right:4px; }
+.sky-body{
+  width:40px;
+  height:580px;
+  border-radius:8px;
+  border:1px dashed rgba(190,140,255,0.25);
+  background:linear-gradient(180deg,rgba(217,70,239,0.06),rgba(103,232,249,0.04));
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+}
+.sky-txt{
+  font-size:9px;
+  font-weight:700;
+  color:rgba(214,245,255,0.40);
+  writing-mode:vertical-rl;
+  text-orientation:mixed;
+  letter-spacing:0.1em;
+}
+.sky-sz{
+  font-size:8px;
+  color:rgba(165,243,252,0.25);
+  writing-mode:vertical-rl;
+}
+.history-center{
+  flex:1;
+  min-width:0;
+  padding:0 6px;
+}
+.history-center .gc{
+  margin-bottom:10px;
+}
+.history-center .shdr-l .big{
+  font-size:17px;
+}
+
+/* ── DASHBOARD SKYSCRAPER LAYOUT ── */
+.dash-layout{
+  display:flex;
+  align-items:flex-start;
+  gap:0;
+  width:100%;
+  padding-bottom:130px;
+}
+.dash-center{
+  flex:1;
+  min-width:0;
+  padding:0 6px;
+}
+
+
+/* ── DASHBOARD MOBILE WIDE TUNING ── */
+@media (max-width: 768px){
+  #page-dashboard .dash-layout{gap:0}
+  #page-dashboard .sky-col{width:36px;padding-top:6px}
+  #page-dashboard .sky-left{padding-left:2px}
+  #page-dashboard .sky-right{padding-right:2px}
+  #page-dashboard .sky-body{width:34px;height:560px}
+  #page-dashboard .dash-center{padding:0 4px}
+  #page-dashboard .gc{padding:16px;margin-bottom:12px}
+  #page-dashboard .claim-pair{gap:8px;margin-bottom:12px}
+  #page-dashboard .cb{padding:16px 10px;gap:10px}
+  #page-dashboard .cb-amt{font-size:18px}
+  #page-dashboard .btn-n,
+  #page-dashboard .btn-b,
+  #page-dashboard .btn-dis{padding:15px 10px;font-size:14px;min-height:60px;border-radius:16px}
+  #page-dashboard .ready{padding:12px 13px}
+  #page-dashboard .prog-wrap{padding:12px 13px}
+}
+
+
+
+/* ── PERFORMANCE OPTIMIZATIONS ── */
+html { scroll-behavior: auto; }
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeSpeed; }
+header, .bnav, .sticky-ad { will-change: transform; }
+.page, .gc, .ad, .rules, .ref-hero, .ref-link-box, .ref-reward-card, .pstat, .wallet-box, .log, .share-sheet, .share-btn, .mth {
+  contain: layout paint style;
+}
+.gc, .ad, .rules, .ref-hero, .ref-link-box, .ref-reward-card, .pstat, .wallet-box, .log, .share-btn, .mth {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 320px;
+}
+.ad-sz-728x90 { contain-intrinsic-size: 728px 90px; }
+.ad-sz-300x250 { contain-intrinsic-size: 300px 250px; }
+.ad-sz-160x600 { contain-intrinsic-size: 160px 600px; }
+.ad-sz-320x50 { contain-intrinsic-size: 320px 50px; }
+.ad-sz-300x100 { contain-intrinsic-size: 300px 100px; }
+
+/* Faster rendering on weak devices */
+@media (prefers-reduced-motion: reduce) {
+  .btn-n, .captcha-overlay, .share-sheet, .coin-pop { animation: none !important; }
+  .hd, header, .bnav, .sticky-ad, .gc, .ad, .rules, .ref-hero, .ref-link-box, .ref-reward-card,
+  .pstat, .wallet-box, .log, .mth, .share-btn, .captcha-box {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow: none !important;
+  }
+}
+body.perf-lite .hd,
+body.perf-lite header,
+body.perf-lite .bnav,
+body.perf-lite .sticky-ad,
+body.perf-lite .gc,
+body.perf-lite .ad,
+body.perf-lite .rules,
+body.perf-lite .ref-hero,
+body.perf-lite .ref-link-box,
+body.perf-lite .ref-reward-card,
+body.perf-lite .pstat,
+body.perf-lite .wallet-box,
+body.perf-lite .log,
+body.perf-lite .mth,
+body.perf-lite .share-btn,
+body.perf-lite .share-sheet,
+body.perf-lite .captcha-box {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+body.perf-lite .btn-n,
+body.perf-lite .btn-b,
+body.perf-lite .btn-g,
+body.perf-lite .ref-copy-btn,
+body.perf-lite .share-sheet-native-btn,
+body.perf-lite .btn-save,
+body.perf-lite .btn-oc,
+body.perf-lite .mth,
+body.perf-lite .share-btn,
+body.perf-lite .nb,
+body.perf-lite .captcha-slider {
+  transition: none !important;
+}
+
+
+/* ── INFO WIDGETS (below ads) ── */
+.info-widget{
+  border-radius:16px;
+  padding:14px 15px;
+  margin-bottom:14px;
+  display:flex;align-items:center;gap:13px;
+  border:1px solid rgba(110,233,255,0.13);
+  background:linear-gradient(135deg,rgba(10,18,34,0.92),rgba(6,10,20,0.85));
+  box-shadow:0 6px 20px rgba(0,0,0,0.22),inset 0 1px 0 rgba(255,255,255,0.03);
+}
+.info-widget-icon{
+  width:42px;height:42px;border-radius:12px;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-size:19px;
+}
+.info-widget-icon.cyan{background:rgba(110,233,255,0.12);border:1px solid rgba(110,233,255,0.2)}
+.info-widget-icon.violet{background:rgba(190,140,255,0.12);border:1px solid rgba(190,140,255,0.2)}
+.info-widget-icon.lime{background:rgba(215,255,99,0.10);border:1px solid rgba(215,255,99,0.18)}
+.info-widget-icon.amber{background:rgba(255,189,115,0.10);border:1px solid rgba(255,189,115,0.18)}
+.info-widget-txt{}
+.info-widget-title{font-size:13px;font-weight:800;color:#e8f9ff;margin-bottom:3px}
+.info-widget-sub{font-size:11px;color:rgba(214,245,255,0.50);line-height:1.5}
+
+.info-widget-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:9px;
+  margin-bottom:14px;
+}
+.info-mini{
+  border-radius:14px;padding:12px 11px;
+  border:1px solid rgba(110,233,255,0.11);
+  background:linear-gradient(145deg,rgba(10,18,34,0.90),rgba(6,10,20,0.80));
+  display:flex;flex-direction:column;gap:5px;
+}
+.info-mini-top{display:flex;align-items:center;gap:7px}
+.info-mini-icon{font-size:16px}
+.info-mini-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:rgba(214,245,255,0.45)}
+.info-mini-val{font-size:13px;font-weight:800;color:#d6fbff}
+.info-mini-sub{font-size:10.5px;color:rgba(214,245,255,0.40)}
+
+.info-banner{
+  border-radius:16px;padding:14px 16px;margin-bottom:14px;
+  border:1px solid rgba(215,255,99,0.16);
+  background:linear-gradient(135deg,rgba(215,255,99,0.07),rgba(110,233,255,0.04));
+  display:flex;align-items:center;gap:12px;
+}
+.info-banner-icon{font-size:22px;flex-shrink:0}
+.info-banner-txt{}
+.info-banner-title{font-size:13px;font-weight:800;color:#e7ff9a;margin-bottom:3px}
+.info-banner-sub{font-size:11px;color:rgba(214,245,255,0.48);line-height:1.5}
+
+/* ── COLOR THEME UPGRADE ── */
+:root{
+  --c-cyan:#6fe9ff;
+  --c-cyan2:#9ef7ff;
+  --c-violet:#be8cff;
+  --c-violet2:#e1b7ff;
+  --c-lime:#d7ff63;
+  --c-amber:#ffbd73;
+  --c-rose:#ff8fd6;
+  --c-surface:rgba(8,14,26,0.78);
+  --c-surface-2:rgba(10,18,34,0.88);
+  --c-line:rgba(110,233,255,0.18);
+  --c-line-2:rgba(190,140,255,0.18);
+}
+
+body{
+  background:
+    radial-gradient(circle at 12% 0%, rgba(110,233,255,0.10), transparent 22%),
+    radial-gradient(circle at 88% 8%, rgba(190,140,255,0.12), transparent 20%),
+    radial-gradient(circle at 50% 100%, rgba(215,255,99,0.08), transparent 24%),
+    #04050f;
+}
+
+.neon-bg{
+  background: transparent;
+}
+
+header, .bnav, .sticky-ad{
+  background:rgba(4,5,15,0.96);
+}
+
+header{
+  border-bottom:1px solid rgba(110,233,255,0.14);
+}
+
+.hd-icon{
+  background:linear-gradient(135deg,rgba(110,233,255,0.24),rgba(190,140,255,0.12));
+  border:1px solid rgba(110,233,255,0.32);
+}
+
+.hd-icon svg{stroke:var(--c-cyan)}
+.hd-sub,.ad-resp,.field-l,.shdr-l .sm,.pstat-l,.wallet-l,.ref-link-lbl,.ref-stat-l,.share-btn-sub,.ref-item-sub,.log-time,.cb-hint,.rules li{
+  color:rgba(214,245,255,0.46);
+}
+
+.hd-bal{
+  border:1px solid rgba(255,189,115,0.72);
+  background:linear-gradient(135deg,rgba(26,8,0,0.98),rgba(58,16,0,0.96));
+  box-shadow:0 0 24px rgba(255,120,0,0.34),0 0 14px rgba(190,140,255,0.16),inset 0 1px 0 rgba(255,189,115,0.18);
+}
+.hd-bal-lbl{color:rgba(255,189,115,0.95)}
+.hd-bal-num{
+  background:linear-gradient(to bottom,#ffcf7d,#ff8a2a,#ffd86a);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+
+.gc, .wallet-box, .rules, .pstat, .log, .ref-item, .ref-hero, .ref-reward-card, .ref-link-box, .field-i, .field-ta, .mth, .share-btn{
+  border-color:rgba(110,233,255,0.14) !important;
+}
+
+.gc, .wallet-box, .rules, .pstat, .log, .ref-item, .ref-link-box, .field-i, .field-ta, .mth, .share-btn{
+  background:linear-gradient(180deg, rgba(10,18,34,0.90), rgba(6,10,20,0.82));
+}
+
+.gc{
+  box-shadow:0 14px 40px rgba(0,0,0,0.24), inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+.ad, .ad-full{
+  border-color:rgba(190,140,255,0.14);
+  background:rgba(0,0,0,0.34);
+}
+
+.ad-pill{
+  background:linear-gradient(135deg,rgba(190,140,255,0.14),rgba(110,233,255,0.09));
+  border-color:rgba(190,140,255,0.22);
+  color:rgba(227,198,255,0.92);
+}
+.ad-body{
+  border-color:rgba(110,233,255,0.16);
+  background:linear-gradient(135deg,rgba(110,233,255,0.05),rgba(190,140,255,0.04),rgba(215,255,99,0.05));
+}
+.ad-t{color:rgba(220,250,255,0.82)}
+.ad-s{color:rgba(214,245,255,0.40)}
+
+.ready, .prog-wrap{
+  border-color:rgba(110,233,255,0.14);
+  background:rgba(0,0,0,0.24);
+}
+#ready-txt{color:var(--c-cyan)}
+.prog-bar{background:linear-gradient(to right,var(--c-cyan),var(--c-violet),var(--c-lime))}
+.prog-hd{color:rgba(214,245,255,0.62)}
+
+.cb-normal{
+  background:linear-gradient(145deg,rgba(110,233,255,0.12),rgba(0,0,0,0.30));
+  border-color:rgba(110,233,255,0.18);
+}
+.cb-boost{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:linear-gradient(145deg,rgba(194,140,255,0.24),rgba(40,16,70,0.92) 58%,rgba(0,0,0,0.28));
+  border-color:rgba(214,173,255,0.34);
+  box-shadow:0 0 0 1px rgba(255,255,255,0.02),0 14px 34px rgba(160,90,255,0.16);
+}
+.cb-boost::before{
+  content:"";
+  position:absolute;inset:-1px;
+  background:radial-gradient(circle at 25% 18%,rgba(255,255,255,0.16),transparent 28%),
+             radial-gradient(circle at 85% 82%,rgba(110,233,255,0.12),transparent 30%);
+  pointer-events:none;
+}
+.cb-boost::after{
+  content:"";
+  position:absolute;inset:-30% -20%;
+  background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,0.12) 50%,transparent 65%);
+  transform:translateX(-50%) rotate(12deg);
+  animation:boostShine 3.5s linear infinite;
+  pointer-events:none;
+}
+.cb-label.n{background:rgba(110,233,255,0.12);border-color:rgba(110,233,255,0.20);color:rgba(214,245,255,0.88)}
+.cb-label.b{background:rgba(190,140,255,0.12);border-color:rgba(190,140,255,0.20);color:rgba(239,219,255,0.88)}
+.cb-amt{color:#f7fbff}
+
+.btn-n{
+  color:#071017;
+  background:linear-gradient(135deg,#89f2ff,#c2fbff);
+  box-shadow:none;
+}
+.btn-b{
+  position:relative;
+  color:#240a31;
+  background:linear-gradient(135deg,#f6d3ff 0%,#c98cff 38%,#ff9ee0 72%,#ffe8a8 100%);
+  box-shadow:0 14px 28px rgba(190,140,255,0.34),0 0 0 1px rgba(255,255,255,0.22),inset 0 1px 0 rgba(255,255,255,0.45);
+  overflow:hidden;
+  animation:boostPulse 1.8s ease-in-out infinite, boostFloat 4.8s ease-in-out infinite;
+}
+.btn-b::before{
+  content:"";
+  position:absolute;inset:-35%;
+  background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,0.6) 50%,transparent 70%);
+  transform:translateX(-120%) rotate(10deg);
+  animation:boostShine 2.7s linear infinite;
+}
+.btn-b::after{
+  content:"";
+  position:absolute;inset:2px;
+  border-radius:11px;
+  border:1px solid rgba(255,255,255,0.18);
+  pointer-events:none;
+}
+.btn-g, .share-sheet-native-btn{
+  color:#081017;
+  background:linear-gradient(to right,var(--c-cyan),var(--c-violet),var(--c-lime));
+}
+.btn-save, .ref-copy-btn, .share-sheet-copy-btn, .btn-oc{
+  color:var(--c-cyan2);
+  background:rgba(110,233,255,0.10);
+  border-color:rgba(110,233,255,0.25);
+}
+
+.mth.sel{
+  border-color:rgba(110,233,255,0.42);
+  background:rgba(110,233,255,0.10);
+}
+
+.log-ico.s{background:rgba(110,233,255,0.12);color:var(--c-cyan)}
+.log-ico.b{background:rgba(190,140,255,0.12);color:var(--c-violet)}
+.log-ico.w{background:rgba(215,255,99,0.12);color:var(--c-lime)}
+.log-ico.p{background:rgba(255,189,115,0.12);color:var(--c-amber)}
+
+.prof-av, .ref-hero-icon{
+  background:linear-gradient(135deg,rgba(110,233,255,0.18),rgba(190,140,255,0.14),rgba(255,189,115,0.08));
+  border-color:rgba(110,233,255,0.24);
+}
+.prof-av svg, .ref-hero-icon svg, .hd-logo .hd-icon svg, .shdr svg, .ready-l svg{
+  stroke:var(--c-cyan);
+}
+
+.ref-hero{
+  background:linear-gradient(135deg,rgba(110,233,255,0.12),rgba(190,140,255,0.12),rgba(215,255,99,0.08));
+  border-color:rgba(110,233,255,0.18);
+}
+.ref-hero h2, .ref-hero p, .ref-reward-hd, .ref-stat-v, .ref-item-earned, .log-amt, .pstat-v{
+  color:#f5fbff;
+}
+.ref-reward-hd{color:#e1f8a3}
+.ref-reward-card{
+  background:linear-gradient(135deg,rgba(215,255,99,0.08),rgba(110,233,255,0.07),rgba(190,140,255,0.08));
+  border-color:rgba(215,255,99,0.16);
+}
+.ref-reward-row{
+  background:rgba(0,0,0,0.18);
+  border:1px solid rgba(110,233,255,0.08);
+}
+.ref-reward-row-v{color:var(--c-lime)}
+.ref-link-val{
+  background:rgba(110,233,255,0.06);
+  border-color:rgba(110,233,255,0.15);
+  color:#dffcff;
+}
+
+.ref-stat, .pstat{
+  background:linear-gradient(180deg,rgba(13,21,38,0.88),rgba(6,10,20,0.78));
+  border-color:rgba(110,233,255,0.10);
+}
+.ref-stat-v{color:#eaffff}
+
+.field-i, .field-ta{
+  color:#ffffff;
+  background:rgba(0,0,0,0.30);
+}
+
+.share-btn.sh-wa{background:rgba(37,211,102,0.08)}
+.share-btn.sh-tg{background:rgba(0,136,204,0.08)}
+.share-btn.sh-ig{background:rgba(225,48,108,0.08)}
+.share-btn.sh-tw{background:rgba(29,161,242,0.08)}
+.share-btn.sh-rd{background:rgba(255,69,0,0.08)}
+.share-btn.sh-fb{background:rgba(24,119,242,0.08)}
+
+.click-badge.n{
+  background:rgba(110,233,255,0.12);
+  border-color:rgba(110,233,255,0.25);
+  color:#d6fbff;
+}
+.click-badge.b{
+  background:rgba(190,140,255,0.12);
+  border-color:rgba(190,140,255,0.25);
+  color:#f0d8ff;
+}
+.click-counter-fill-n{background:linear-gradient(90deg,var(--c-cyan),var(--c-violet))}
+.click-counter-fill-b{background:linear-gradient(90deg,var(--c-violet),var(--c-lime))}
+.click-dot.active-n{background:var(--c-cyan);border-color:var(--c-cyan)}
+.click-dot.active-b{background:var(--c-violet);border-color:var(--c-violet)}
+
+.nb.active{
+  background:linear-gradient(180deg,rgba(110,233,255,0.12),rgba(190,140,255,0.10));
+}
+.nb.active svg{stroke:var(--c-cyan)}
+.nb.active span{color:#e8fbff}
+
+.sticky-ad{
+  border-top:1px solid rgba(110,233,255,0.14);
+}
+.sticky-ad-in{
+  background:rgba(110,233,255,0.04);
+  border-color:rgba(110,233,255,0.20);
+}
+
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{
+    animation-duration:0.01ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:0.01ms !important;
+    scroll-behavior:auto !important;
+  }
+}
+
+</style>
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+</head>
+<body>
+<div class="neon-bg">
+
+<!-- ══ HEADER ══ -->
+<header>
+  <div class="hd">
+    <div class="hd-logo">
+      <div class="hd-icon">
+        <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      </div>
+      <div>
+        <div class="hd-name">KING FAUCET</div>
+        <div class="hd-sub">Claim • Boost • Withdraw</div>
+      </div>
+    </div>
+    <!-- BALANCE in header -->
+    <div class="hd-bal">
+      <span class="hd-bal-lbl">👑 Balance</span>
+      <span class="hd-bal-num" id="hd-bal-num">$0.0000</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ══════════ DASHBOARD ══════════ -->
+<div class="page active" id="page-dashboard">
+
+  <!-- FULL WIDTH AD TOP — 728×90 Leaderboard -->
+  <div class="ad-full">
+    <div class="ad-body ad-sz-728x90">
+      <div class="ad-t">728 × 90</div>
+      <div class="ad-s">Leaderboard — Highest Visibility</div>
+    </div>
+  </div>
+
+  <div class="dash-layout">
+
+    <!-- Left skyscraper 160×600 -->
+    <div class="sky-col sky-left">
+      <div class="ad-pill" style="font-size:9px;margin-bottom:6px;display:inline-flex;align-items:center;gap:3px;border-radius:99px;border:1px solid rgba(190,140,255,0.22);background:rgba(190,140,255,0.08);padding:2px 7px;color:rgba(232,201,255,0.75);">✦ Ad</div>
+      <div class="sky-body">
+        <div class="sky-txt">Ad</div>
+        <div class="sky-sz">160×600</div>
+      </div>
+    </div>
+
+  <div class="page-inner dash-center">
+  <!-- 320x50 ad above status -->
+  <div style="margin-bottom:10px">
+    <div class="ad-body ad-sz-320x50" style="border:1px dashed rgba(103,232,249,0.18);border-radius:8px;background:linear-gradient(135deg,rgba(34,211,238,0.06),rgba(217,70,239,0.04));min-height:50px;height:50px;padding:0 8px;flex-direction:row;gap:6px">
+      <div class="ad-t" style="font-size:11px">320 × 50</div>
+      <div class="ad-s" style="font-size:10px">Mobile Banner</div>
+    </div>
+  </div>
+  <!-- CLAIM SECTION -->
+  <div class="gc">
+    <!-- Ready badge -->
+    <div class="ready">
+      <div class="ready-l">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Status
+      </div>
+      <div id="ready-txt" style="font-size:13px;font-weight:700;color:#6fe9ff">🟢 Ready to claim!</div>
+    </div>
+
+    <!-- Progress (moved up) -->
+    <div class="prog-wrap">
+      <div class="prog-hd"><span>Claim Progress</span><span id="prog-lbl">✅ Ready</span></div>
+      <div class="prog-track"><div class="prog-bar" id="prog-bar" style="width:100%"></div></div>
+    </div>
+
+    <!-- Claim pair (single boost card) -->
+    <!-- Hidden normal button (kept for JS compatibility) -->
+    <div style="display:none">
+      <button id="btn-normal" onclick="claim(false)"></button>
+      <div id="normal-dots"><div class="click-dot" id="nd0"></div></div>
+      <div id="normal-badge"></div>
+      <div><div id="normal-fill"></div></div>
+    </div>
+
+    <!-- BOOST CARD — Full Width Premium Sale -->
+    <div class="cb cb-boost cb-boost-full" style="position:relative;padding:0;overflow:visible;margin-bottom:14px">
+
+      <!-- Top sale banner -->
+      <div style="
+        background:linear-gradient(90deg,#ff4500,#ff8c00,#ffd700,#ff8c00,#ff4500);
+        background-size:200% auto;
+        animation:saleBannerScroll 2.5s linear infinite;
+        border-radius:14px 14px 0 0;
+        padding:7px 14px;
+        display:flex;align-items:center;justify-content:space-between;
+        font-size:11px;font-weight:900;color:#000;letter-spacing:.08em;
+      ">
+        <span>🔥 LIMITED OFFER — CLAIM NOW</span>
+        <span style="background:#000;color:#ffd700;padding:2px 8px;border-radius:99px;font-size:10px;font-weight:900">🏷️ SALE</span>
+      </div>
+
+      <!-- Card body -->
+      <div style="padding:18px 18px 16px">
+
+        <!-- Header row -->
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+          <div>
+            <div style="font-size:11px;color:rgba(214,245,255,0.5);letter-spacing:.12em;text-transform:uppercase;margin-bottom:2px">Reward Per Claim</div>
+            <div style="font-size:32px;font-weight:900;letter-spacing:-.01em;
+              background:linear-gradient(135deg,#f6d3ff,#c98cff,#ff9ee0,#ffe8a8);
+              -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+              filter:drop-shadow(0 0 12px rgba(200,140,255,0.5));
+            ">$0.000667</div>
+          </div>
+
+        </div>
+
+        <!-- Divider -->
+        <div style="height:1px;background:linear-gradient(90deg,transparent,rgba(200,140,255,0.3),transparent);margin:8px 0"></div>
+
+        <!-- Stats row -->
+        <div style="display:flex;gap:8px;margin-bottom:12px">
+          <div style="flex:1;text-align:center;background:rgba(255,255,255,0.04);border-radius:10px;padding:6px 4px;border:1px solid rgba(255,255,255,0.07)">
+            <div style="font-size:15px;font-weight:900;color:#c98cff">75</div>
+            <div style="font-size:9px;color:rgba(214,245,255,0.45);text-transform:uppercase;letter-spacing:.06em">Claims</div>
+          </div>
+          <div style="flex:1;text-align:center;background:rgba(255,255,255,0.04);border-radius:10px;padding:6px 4px;border:1px solid rgba(255,255,255,0.07)">
+            <div style="font-size:15px;font-weight:900;color:#ffd700">2x</div>
+            <div style="font-size:9px;color:rgba(214,245,255,0.45);text-transform:uppercase;letter-spacing:.06em">Clicks</div>
+          </div>
+          <div style="flex:1;text-align:center;background:rgba(255,255,255,0.04);border-radius:10px;padding:6px 4px;border:1px solid rgba(255,255,255,0.07)">
+            <div style="font-size:15px;font-weight:900;color:#6fe9ff">40%</div>
+            <div style="font-size:9px;color:rgba(214,245,255,0.45);text-transform:uppercase;letter-spacing:.06em">Ref Bonus</div>
+          </div>
+        </div>
+
+        <!-- Click dots -->
+        <div class="click-dots" id="boost-dots" style="justify-content:center;gap:12px;margin-bottom:10px">
+          <div class="click-dot" id="bd0"></div>
+          <div class="click-dot" id="bd1"></div>
+        </div>
+
+        <!-- Main button -->
+        <button class="btn-b btn-boost-full" id="btn-boost" onclick="claim(true)" style="font-size:18px;padding:20px;letter-spacing:.05em">
+          ⚡ Boost Claim
+        </button>
+
+        <!-- Counter + progress (badge hidden for JS compat) -->
+        <div style="display:none"><div class="click-badge b" id="boost-badge">🔥 0 / 75</div></div>
+        <div style="margin-top:6px;font-size:10px;color:rgba(214,245,255,0.4);text-align:center">Click 1 → 10s → Click 2 → earn 💰</div>
+        <div class="click-counter-track" style="margin-top:6px"><div class="click-counter-fill-b" id="boost-fill" style="width:0%"></div></div>
+
+      </div><!-- card body -->
+    </div>
+  </div>
+
+  <!-- AD before captcha — 300×100 Large Mobile Banner -->
+  <div class="ad">
+    <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">Pre-Captcha</span></div>
+    <div class="ad-body ad-sz-300x100">
+      <div class="ad-t">300 × 100</div>
+      <div class="ad-s">Large Mobile Banner</div>
+    </div>
+  </div>
+
+  <!-- INFO WIDGET 1: How to Earn — crystal cyan -->
+  <div class="info-widget iw-crystal iw-cyan" onclick="document.getElementById('btn-boost').scrollIntoView({behavior:'smooth'})" style="cursor:pointer">
+    <div class="iw-icon-crystal iw-ic-cyan">⚡</div>
+    <div class="info-widget-txt" style="flex:1">
+      <div class="info-widget-title" style="color:#6fe9ff">How to Earn — Dead Simple! ⚡</div>
+      <div class="info-widget-sub">Tap Boost Claim → wait → captcha → get paid 💸. 100% free!</div>
+    </div>
+    <div style="font-size:18px;opacity:.6">›</div>
+  </div>
+
+  <!-- IN-FEED AD — Native 1×1 -->
+  <div class="ad">
+    <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">In-Feed Native</span></div>
+    <div class="ad-body ad-sz-native">
+      <div class="ad-ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg></div>
+      <div class="ad-native-txt">
+        <div class="ad-t">Native · 1 × 1</div>
+        <div class="ad-s">In-Feed Responsive Native</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFO WIDGET 2: Boost stats — crystal purple -->
+  <div class="info-widget-grid">
+    <div class="info-mini iw-crystal" style="background:linear-gradient(135deg,rgba(110,233,255,0.10),rgba(0,20,40,0.85));border:1px solid rgba(110,233,255,0.25);cursor:pointer" onclick="document.getElementById('btn-boost').scrollIntoView({behavior:'smooth'})">
+      <div class="info-mini-top"><span class="info-mini-icon">💎</span><span class="info-mini-label" style="color:#6fe9ff">Boost Claim</span></div>
+      <div class="info-mini-val" style="color:#6fe9ff;font-size:15px">$0.000667</div>
+      <div class="info-mini-sub" style="color:rgba(110,233,255,0.6)">2 clicks · Higher reward 🔥</div>
+    </div>
+    <div class="info-mini iw-crystal" style="background:linear-gradient(135deg,rgba(215,255,99,0.10),rgba(10,20,0,0.85));border:1px solid rgba(215,255,99,0.25);cursor:pointer" onclick="goTab('withdraw')">
+      <div class="info-mini-top"><span class="info-mini-icon">💰</span><span class="info-mini-label" style="color:#d7ff63">Withdraw</span></div>
+      <div class="info-mini-val" style="color:#d7ff63;font-size:15px">Min $0.05</div>
+      <div class="info-mini-sub" style="color:rgba(215,255,99,0.6)">Tap to withdraw →</div>
+    </div>
+  </div>
+
+  <!-- AD after captcha — 300×250 Medium Rectangle (HIGHEST CPM) -->
+  <div class="ad">
+    <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">Post-Captcha · 💰 Top CPM</span></div>
+    <div class="ad-body ad-sz-300x250">
+      <div class="ad-t">300 × 250</div>
+      <div class="ad-s">Medium Rectangle — Top CPM Slot</div>
+    </div>
+  </div>
+
+  <!-- INFO WIDGET 3: Withdrawal — crystal lime -->
+  <div class="info-widget iw-crystal iw-lime" onclick="goTab('withdraw')" style="cursor:pointer">
+    <div class="iw-icon-crystal iw-ic-lime">💸</div>
+    <div class="info-widget-txt" style="flex:1">
+      <div class="info-widget-title" style="color:#d7ff63">Withdraw Anytime 🏦</div>
+      <div class="info-widget-sub">Min <b style="color:#d7ff63">$0.05</b> → FaucetPay, USDT, PayPal, UPI. Instant payout! 🚀</div>
+    </div>
+    <div style="font-size:18px;opacity:.6;color:#d7ff63">›</div>
+  </div>
+
+  <!-- RULES -->
+  <div class="rules">
+    <div class="rules-hd">
+      <svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      Rules
+    </div>
+    <ul>
+      <li>• Minimum withdrawal: $0.05</li>
+      <li>• FaucetPay or USDT TRC20 only</li>
+      <li>• Manual claim — no auto bots</li>
+      <li>• 10 second cooldown per claim</li>
+    </ul>
+  </div>
+
+  <!-- AD after rules 1 — 320×50 Mobile Banner -->
+  <div class="ad" style="margin-top:14px">
+    <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">Post-Rules</span></div>
+    <div class="ad-body ad-sz-320x50">
+      <div class="ad-t">320 × 50</div>
+      <div class="ad-s">Mobile Banner</div>
+    </div>
+  </div>
+
+
+
+  <!-- INFO WIDGET 4: Referral — crystal violet -->
+  <div class="info-widget iw-crystal iw-violet" onclick="goTab('referral')" style="cursor:pointer">
+    <div class="iw-icon-crystal iw-ic-violet">👥</div>
+    <div class="info-widget-txt" style="flex:1">
+      <div class="info-widget-title" style="color:#be8cff">Refer Friends — Earn More! 💜</div>
+      <div class="info-widget-sub"><b style="color:#be8cff">40% commission</b> + <b style="color:#d7ff63">$0.05 bonus</b> per 10 claims. Tap to invite friends! 🎁</div>
+    </div>
+    <div style="font-size:18px;opacity:.6;color:#be8cff">›</div>
+  </div>
+
+  <!-- AD after rules 3 — Native 1×1 #2 -->
+  <div class="ad">
+    <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">Native Sponsor</span></div>
+    <div class="ad-body ad-sz-native">
+      <div class="ad-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+      <div class="ad-native-txt">
+        <div class="ad-t">Native · 1 × 1</div>
+        <div class="ad-s">Sponsored Content Native</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- INFO WIDGET 5: Coming Soon + Ads tip -->
+  <div class="info-banner">
+    <div class="info-banner-icon">🔮</div>
+    <div class="info-banner-txt">
+      <div class="info-banner-title">More Features Coming Soon!</div>
+      <div class="info-banner-sub">📜 History &nbsp;·&nbsp; 👤 Profile &nbsp;·&nbsp; 🏆 Leaderboard &nbsp;·&nbsp; 🎮 Bonus Games — all dropping soon. Stay tuned! 🚀</div>
+    </div>
+  </div>
+
+  <!-- INFO WIDGET 5: Ads — crystal amber -->
+  <div class="info-widget iw-crystal iw-amber">
+    <div class="iw-icon-crystal iw-ic-amber">📢</div>
+    <div class="info-widget-txt">
+      <div class="info-widget-title" style="color:#ffbd73">👀 Watch Ads = Keep Us Free!</div>
+      <div class="info-widget-sub">Ads = your earnings. <b style="color:#ffbd73">Don't block ads</b> — every view pays you more! 🙏</div>
+    </div>
+  </div>
+
+  <!-- AD bottom of dashboard — 300×250 -->
+  <div class="ad">
+    <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">Bottom Dashboard · 💰 Top CPM</span></div>
+    <div class="ad-body ad-sz-300x250">
+      <div class="ad-t">300 × 250</div>
+      <div class="ad-s">Medium Rectangle — Bottom Slot</div>
+    </div>
+  </div>
+
+  </div><!-- .page-inner / .dash-center -->
+
+    <!-- Right skyscraper 160×600 -->
+    <div class="sky-col sky-right">
+      <div class="ad-pill" style="font-size:9px;margin-bottom:6px;display:inline-flex;align-items:center;gap:3px;border-radius:99px;border:1px solid rgba(190,140,255,0.22);background:rgba(190,140,255,0.08);padding:2px 7px;color:rgba(232,201,255,0.75);">✦ Ad</div>
+      <div class="sky-body">
+        <div class="sky-txt">Ad</div>
+        <div class="sky-sz">160×600</div>
+      </div>
+    </div>
+
+  </div><!-- .dash-layout -->
+
+</div>
+
+<!-- ══════════ WITHDRAW ══════════ -->
+<div class="page" id="page-withdraw">
+
+  <!-- FULL WIDTH AD — 728×90 Leaderboard #2 -->
+  <div class="ad-full">
+    <div class="ad-body ad-sz-728x90">
+      <div class="ad-t">728 × 90</div>
+      <div class="ad-s">Leaderboard</div>
+    </div>
+  </div>
+
+  <div class="page-inner">
+  <div class="gc">
+    <div class="shdr">
+      <div class="shdr-l"><div class="sm">Withdrawal</div><div class="big">Request Payout</div></div>
+      <!-- Real wallet/payout icon -->
+      <svg viewBox="0 0 24 24" style="width:26px;height:26px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
+        <rect x="2" y="5" width="20" height="14" rx="3"/>
+        <path d="M2 10h20"/>
+        <circle cx="17" cy="15" r="1.2" fill="#6fe9ff" stroke="none"/>
+      </svg>
+    </div>
+
+    <div class="bal-row">
+      <div>
+        <div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:rgba(214,245,255,0.45);margin-bottom:4px">Available</div>
+        <div style="font-size:26px;font-weight:900" id="w-bal">$0.0000</div>
+      </div>
+      <svg viewBox="0 0 24 24" style="width:28px;height:28px;stroke:#6fe9ff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
+        <rect x="2" y="5" width="20" height="14" rx="3"/>
+        <path d="M2 10h20"/>
+        <circle cx="17" cy="15" r="1.2" fill="#6fe9ff" stroke="none"/>
+      </svg>
+    </div>
+
+    <label class="field-l">Payout Method</label>
+    <div class="method-row" style="grid-template-columns:1fr 1fr">
+      <button class="mth sel" id="mfp" onclick="selMethod('FaucetPay')">
+        <div class="mth-name">FaucetPay <svg viewBox="0 0 24 24" style="stroke:#6fe9ff"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <div class="mth-sub">Min $0.05 • Email &nbsp;<span style="background:#22c55e;color:#fff;font-size:9px;font-weight:800;padding:1px 6px;border-radius:99px;letter-spacing:.05em">⚡ INSTANT</span></div>
+        <div class="mth-sub">Min $0.05 • Email</div>
+      </button>
+      <button class="mth" id="musdt" onclick="selMethod('USDT TRC20')">
+        <div class="mth-name">USDT TRC20 <svg viewBox="0 0 24 24" style="stroke:rgba(214,245,255,0.35)"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <div class="mth-sub">Min $0.05 • Wallet</div>
+      </button>
+      <button class="mth" id="mpaypal" onclick="selMethod('PayPal')">
+        <div class="mth-name">PayPal <svg viewBox="0 0 24 24" style="stroke:rgba(214,245,255,0.35)"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <div class="mth-sub">Min $0.100 • Email</div>
+      </button>
+      <button class="mth" id="mupi" onclick="selMethod('UPI')">
+        <div class="mth-name">UPI <svg viewBox="0 0 24 24" style="stroke:rgba(214,245,255,0.35)"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <div class="mth-sub">Min ₹5 • UPI ID</div>
+      </button>
+    </div>
+
+    <label class="field-l" id="w-amt-lbl">Amount (min $0.05)</label>
+    <input class="field-i" type="number" id="w-amt" value="0.050" step="0.001" placeholder="0.050"/>
+
+    <label class="field-l" id="w-lbl">FaucetPay Email / ID</label>
+    <textarea class="field-ta" id="w-addr" rows="2" placeholder="Enter your FaucetPay email/ID"></textarea>
+
+    <!-- AD inside form — 300×250 #2 (HIGH INTENT) -->
+    <div class="ad" style="margin-bottom:14px">
+      <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">High Intent · 💰 Top CPM</span></div>
+      <div class="ad-body ad-sz-300x250">
+        <div class="ad-t">300 × 250</div>
+        <div class="ad-s">Medium Rectangle — High Intent</div>
+      </div>
+    </div>
+
+    <button class="btn-g" onclick="doWithdraw()">Submit Withdrawal Request</button>
+
+    <div class="rules" style="margin-top:14px">
+      <ul>
+        <li>• FaucetPay / USDT TRC20: min $0.05</li>
+        <li>• PayPal: min $0.100 (email required)</li>
+        <li>• UPI: min ₹5 (UPI ID required)</li>
+        <li>• Processed manually within 24h</li>
+        <li>• Double-check your payout details</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+<!-- ══════════ HISTORY ══════════ -->
+<div class="page" id="page-history">
+
+  <!-- 728×90 Leaderboard #3 -->
+  <div class="ad-full">
+    <div class="ad-body ad-sz-728x90">
+      <div class="ad-t">728 × 90</div>
+      <div class="ad-s">Leaderboard</div>
+    </div>
+  </div>
+
+  <div class="history-layout">
+    <!-- Left skyscraper -->
+    <div class="sky-col sky-left">
+      <div class="ad-pill" style="font-size:9px;margin-bottom:6px;display:inline-flex;align-items:center;gap:3px;border-radius:99px;border:1px solid rgba(190,140,255,0.22);background:rgba(190,140,255,0.08);padding:2px 7px;color:rgba(232,201,255,0.75);">✦ Ad</div>
+      <div class="sky-body">
+        <div class="sky-txt">Ad</div>
+        <div class="sky-sz">160×600</div>
+      </div>
+    </div>
+
+    <!-- Center history content -->
+    <div class="page-inner history-center">
+    <div class="gc">
+      <div class="shdr">
+        <div class="shdr-l"><div class="sm">Activity</div><div class="big">History</div></div>
+        <svg viewBox="0 0 24 24"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"/><path d="M12 7v5l4 2"/></svg>
+      </div>
+      <div id="logs-wrap">
+        <div class="empty">No transactions yet.<br>Start claiming to see history!</div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Right skyscraper -->
+    <div class="sky-col sky-right">
+      <div class="ad-pill" style="font-size:9px;margin-bottom:6px;display:inline-flex;align-items:center;gap:3px;border-radius:99px;border:1px solid rgba(190,140,255,0.22);background:rgba(190,140,255,0.08);padding:2px 7px;color:rgba(232,201,255,0.75);">✦ Ad</div>
+      <div class="sky-body">
+        <div class="sky-txt">Ad</div>
+        <div class="sky-sz">160×600</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════ PROFILE ══════════ -->
+<div class="page" id="page-profile">
+
+  <!-- 300×250 Medium Rectangle #3 -->
+  <div class="ad-full">
+    <div class="ad-body ad-sz-300x250">
+      <div class="ad-t">300 × 250</div>
+      <div class="ad-s">Medium Rectangle · 💰 Top CPM</div>
+    </div>
+  </div>
+
+  <div class="page-inner">
+  <div class="gc">
+    <div class="prof-hd">
+      <div class="prof-av">
+        <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </div>
+      <div>
+        <div class="prof-name" id="disp-name">Neo Miner</div>
+        <div class="prof-uid">UID: NF-349184</div>
+        <div class="ver-badge">
+          <svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Verified
+        </div>
+      </div>
+    </div>
+
+    <label class="field-l">Display Name</label>
+    <div class="input-row">
+      <input class="field-i" id="name-inp" value="Neo Miner"/>
+      <button class="btn-save" onclick="saveName()">Save</button>
+    </div>
+
+    <div class="pstat-grid">
+      <div class="pstat"><div class="pstat-l">Total Claimed</div><div class="pstat-v" id="p-total">$0.0000</div></div>
+      <div class="pstat"><div class="pstat-l">Total Withdrawn</div><div class="pstat-v" id="p-withdrawn">$0.0000</div></div>
+      <div class="pstat"><div class="pstat-l">Claims Made</div><div class="pstat-v" id="p-count">0</div></div>
+      <div class="pstat"><div class="pstat-l">Member Since</div><div class="pstat-v">Apr 2025</div></div>
+    </div>
+
+    <!-- AD mid profile — 300×100 Large Mobile Banner -->
+    <div class="ad" style="margin-bottom:14px">
+      <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">Mid Profile</span></div>
+      <div class="ad-body ad-sz-300x100">
+        <div class="ad-t">300 × 100</div>
+        <div class="ad-s">Large Mobile Banner</div>
+      </div>
+    </div>
+
+    <div class="wallet-box">
+      <div class="wallet-l">Wallet Tag</div>
+      <div class="wallet-addr">TRC20-TEMPLATE-ADDRESS-0001</div>
+      <button class="btn-oc" id="copy-btn" onclick="copyWallet()">📋 Copy Wallet Tag</button>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+<!-- ══════════ REFERRAL ══════════ -->
+<div class="page" id="page-referral">
+
+  <!-- 300×250 Top Referral Ad -->
+  <div class="ad-full">
+    <div class="ad-body ad-sz-300x250">
+      <div class="ad-t">300 × 250</div>
+      <div class="ad-s">Top Referral — Prime View</div>
+    </div>
+  </div>
+
+  <div class="page-inner">
+
+  <!-- Hero -->
+  <div class="ref-hero">
+    <div class="ref-hero-icon">
+      <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    </div>
+    <h2>Invite &amp; Earn 💰</h2>
+    <p>Refer friends and earn <b style="color:#d6fbff">$0.05</b> per referral after they complete <b style="color:#d6fbff">10 claims</b>. Plus get <b style="color:#d7ff63">40% commission</b> on everything they earn!</p>
+  </div>
+
+  <div class="ref-badge-row">
+    <span class="ref-badge-chip"><i></i> Fast sharing</span>
+    <span class="ref-badge-chip p"><i></i> Stylish rewards</span>
+    <span class="ref-badge-chip g"><i></i> Bonus earnings</span>
+  </div>
+
+  <!-- Stats -->
+  <div class="ref-stats">
+    <div class="ref-stat">
+      <div class="ref-stat-v" id="ref-count">0</div>
+      <div class="ref-stat-l">Referrals</div>
+    </div>
+    <div class="ref-stat">
+      <div class="ref-stat-v" id="ref-earned">$0.00</div>
+      <div class="ref-stat-l">Earned</div>
+    </div>
+    <div class="ref-stat">
+      <div class="ref-stat-v" id="ref-commission">$0.00</div>
+      <div class="ref-stat-l">Commission</div>
+    </div>
+  </div>
+
+  <div class="ref-metrics-grid">
+    <div class="ref-metric">
+      <div class="k">Step 1</div>
+      <div class="v">Share your link in <b>1 tap</b></div>
+    </div>
+    <div class="ref-metric">
+      <div class="k">Step 2</div>
+      <div class="v">Friend completes <b>10 claims</b></div>
+    </div>
+    <div class="ref-metric">
+      <div class="k">Step 3</div>
+      <div class="v">You earn <b>bonus + commission</b></div>
+    </div>
+  </div>
+
+  <div class="ref-cta-glow">
+    <div class="line1">Best performing referral layout</div>
+    <div class="line2">Clean. Bright. <span>Conversion-focused.</span></div>
+  </div>
+
+  <div class="ref-share-strip">
+    <div class="mini-title">Referral highlights</div>
+    <div class="mini-grid">
+      <div class="mini-card">
+        <div class="n">1-tap share</div>
+        <div class="s">Quick link copy and share.</div>
+      </div>
+      <div class="mini-card">
+        <div class="n">Reward boost</div>
+        <div class="s">Bonus plus commission flow.</div>
+      </div>
+      <div class="mini-card">
+        <div class="n">Mobile-first</div>
+        <div class="s">Designed for fast opening.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reward breakdown -->
+  <div class="ref-reward-card">
+    <div class="ref-reward-hd">
+      <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      How You Earn
+    </div>
+    <div class="ref-reward-rows">
+      <div class="ref-reward-row">
+        <div class="ref-reward-row-l">🎯 Friend joins &amp; claims 10×</div>
+        <div class="ref-reward-row-v">+$0.05</div>
+      </div>
+      <div class="ref-reward-row">
+        <div class="ref-reward-row-l">⚡ 40% of their every claim</div>
+        <div class="ref-reward-row-v">+40%</div>
+      </div>
+      <div class="ref-reward-row">
+        <div class="ref-reward-row-l">🔥 40% of their boost claims</div>
+        <div class="ref-reward-row-v">+40%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Referral link -->
+  <div class="ref-link-box">
+    <div class="ref-link-lbl">Your Referral Link</div>
+    <div class="ref-link-val" id="ref-link-val">https://neonfaucet.app/?ref=NF-349184</div>
+    <button class="ref-copy-btn" id="ref-copy-btn" onclick="copyRefLink()">📋 Copy Referral Link</button>
+  </div>
+
+  <!-- Share via sheet trigger -->
+  <div class="gc ref-network" style="margin-bottom:14px">
+    <div class="shdr" style="margin-bottom:14px">
+      <div class="shdr-l"><div class="sm">Share via</div><div class="big">Invite Friends</div></div>
+      <svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    </div>
+    <p style="font-size:12px;color:rgba(214,245,255,0.55);margin-bottom:14px;line-height:1.6">Tap below to share your referral link on any platform — sab apps ek jagah milenge! 🚀</p>
+    <button class="btn-g" onclick="openShareSheet()" style="font-size:15px">
+      🔗 Share Your Link
+    </button>
+  </div>
+
+  <!-- AD mid referral — 300×100 -->
+  <div class="ad" style="margin-bottom:14px">
+    <div class="ad-top"><span class="ad-pill">✦ Ad</span><span class="ad-resp">Mid Referral</span></div>
+    <div class="ad-body ad-sz-300x100">
+      <div class="ad-t">300 × 100</div>
+      <div class="ad-s">Large Mobile Banner</div>
+    </div>
+  </div>
+
+  <!-- Referred users list -->
+  <div class="gc">
+    <div class="shdr">
+      <div class="shdr-l"><div class="sm">Your Network</div><div class="big">Referrals</div></div>
+      <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    </div>
+    <div id="ref-list-wrap">
+      <div class="empty">No referrals yet.<br>Share your link and start earning!</div>
+    </div>
+  </div>
+
+  </div><!-- .page-inner -->
+</div>
+
+</main>
+
+<!-- CAPTCHA OVERLAY -->
+<div class="captcha-overlay" id="captcha-overlay">
+  <div class="captcha-box">
+
+    <!-- Ad inside captcha - top (small banner) -->
+    <div style="width:100%;border-radius:10px;border:1px dashed rgba(255,200,0,0.18);background:rgba(0,0,0,0.3);padding:8px;text-align:center;margin-bottom:18px;">
+      <div style="font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,200,0,0.35);margin-bottom:4px">✦ Ad</div>
+      <div style="font-size:11px;color:rgba(255,255,255,0.3);min-height:40px;display:flex;align-items:center;justify-content:center;">Banner Ad — 320×50</div>
+    </div>
+
+    <div class="captcha-title">
+      <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      Verify ⚡
+    </div>
+    <div class="captcha-sub">Slide to confirm you're human</div>
+
+    <div class="captcha-track-wrap" id="captcha-track">
+      <div class="captcha-track-fill" id="captcha-fill"></div>
+      <span class="captcha-track-label" id="captcha-label">→ Slide to verify →</span>
+      <button class="captcha-slider" id="captcha-slider">
+        <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      </button>
+    </div>
+
+    <div class="captcha-success" id="captcha-success">✅ Verified! Claiming...</div>
+    <div class="captcha-hint">Slide the ⚡ bolt to the right to claim</div>
+
+    <!-- Ad inside captcha - bottom (rectangle) -->
+    <div style="width:100%;border-radius:10px;border:1px dashed rgba(255,200,0,0.18);background:rgba(0,0,0,0.3);padding:8px;text-align:center;margin-top:18px;">
+      <div style="font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,200,0,0.35);margin-bottom:4px">✦ Ad</div>
+      <div style="font-size:11px;color:rgba(255,255,255,0.3);min-height:80px;display:flex;align-items:center;justify-content:center;">Rectangle Ad — 300×100</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- STICKY AD — 320×50 Mobile Banner -->
+<div class="sticky-ad" id="sticky-ad">
+  <span class="sticky-ad-lbl">Ad</span>
+  <div class="sticky-ad-in"><span>320 × 50 — Sticky Mobile Banner</span></div>
+  <button class="sticky-close" onclick="document.getElementById('sticky-ad').style.display='none'">✕</button>
+</div>
+
+<!-- BOTTOM NAV (4 tabs, no settings) -->
+<nav class="bnav">
+  <div class="bnav-in">
+
+    <button class="nb active" id="nb-dashboard" onclick="goTab('dashboard')">
+      <svg viewBox="0 0 24 24">
+        <rect x="3" y="3" width="8" height="8" rx="1.5"/>
+        <rect x="13" y="3" width="8" height="8" rx="1.5"/>
+        <rect x="3" y="13" width="8" height="8" rx="1.5"/>
+        <rect x="13" y="13" width="8" height="8" rx="1.5"/>
+      </svg>
+      <span>Dashboard</span>
+    </button>
+
+    <button class="nb" id="nb-withdraw" onclick="goTab('withdraw')">
+      <svg viewBox="0 0 24 24">
+        <rect x="2" y="5" width="20" height="14" rx="3"/>
+        <path d="M2 10h20"/>
+        <circle cx="17" cy="15" r="1.5" fill="rgba(214,245,255,0.35)" stroke="none"/>
+      </svg>
+      <span>Withdraw</span>
+    </button>
+
+    <button class="nb" id="nb-history" onclick="goTab('history')">
+      <svg viewBox="0 0 24 24">
+        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+        <path d="M3 3v5h5"/>
+        <path d="M12 7v5l4 2"/>
+      </svg>
+      <span>History</span>
+    </button>
+
+    <button class="nb" id="nb-referral" onclick="goTab('referral')">
+      <svg viewBox="0 0 24 24">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+      </svg>
+      <span>Referral</span>
+    </button>
+
+    <button class="nb" id="nb-profile" onclick="goTab('profile')">
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="8" r="4"/>
+        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+      </svg>
+      <span>Profile</span>
+    </button>
+
+  </div>
+</nav>
+
+</div><!-- .neon-bg -->
+
+<!-- SHARE SHEET -->
+<div class="share-sheet-overlay" id="share-sheet-overlay" onclick="closeShareSheet(event)">
+  <div class="share-sheet" id="share-sheet">
+    <div class="share-sheet-handle"></div>
+    <div class="share-sheet-title">Your Referral Link</div>
+    <div class="share-sheet-head">Share &amp; Earn 💰</div>
+    <div class="share-sheet-link">
+      <span class="share-sheet-link-txt" id="ss-link-txt">https://kingfaucet.app/?ref=NF-349184</span>
+      <button class="share-sheet-copy-btn" id="ss-copy-btn" onclick="sscopLink()">📋 Copy</button>
+    </div>
+    <div class="share-apps-grid">
+      <button class="share-app-btn" onclick="shareOn('whatsapp');closeShareSheet()">
+        <div class="share-app-ico" style="background:#25D366">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.554 4.1 1.522 5.823L.057 23.885l6.218-1.433A11.942 11.942 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 0 1-5.001-1.368l-.36-.214-3.691.85.872-3.584-.235-.369A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+        </div>
+        <div class="share-app-name">WhatsApp</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('telegram');closeShareSheet()">
+        <div class="share-app-ico" style="background:linear-gradient(135deg,#2AABEE,#229ED9)">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        </div>
+        <div class="share-app-name">Telegram</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('twitter');closeShareSheet()">
+        <div class="share-app-ico" style="background:#000">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="#fff"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </div>
+        <div class="share-app-name">X (Twitter)</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('facebook');closeShareSheet()">
+        <div class="share-app-ico" style="background:#1877F2">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </div>
+        <div class="share-app-name">Facebook</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('instagram');closeShareSheet()">
+        <div class="share-app-ico" style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </div>
+        <div class="share-app-name">Instagram</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('threads');closeShareSheet()">
+        <div class="share-app-ico" style="background:#101010;border:1px solid rgba(255,255,255,0.15)">
+          <svg viewBox="0 0 192 192" width="22" height="22" fill="#fff"><path d="M141.537 88.988a66.667 66.667 0 0 0-2.518-1.143c-1.482-27.307-16.403-42.94-41.457-43.1h-.34c-14.986 0-27.449 6.396-35.12 18.036l13.779 9.452c5.73-8.695 14.724-10.548 21.348-10.548h.229c8.249.053 14.474 2.452 18.503 7.129 2.932 3.405 4.893 8.111 5.864 14.05-7.314-1.243-15.224-1.626-23.68-1.14-23.82 1.371-39.134 15.264-38.105 34.568.522 9.792 5.4 18.216 13.735 23.719 7.047 4.652 16.124 6.927 25.557 6.412 12.458-.683 22.231-5.436 29.049-14.127 5.178-6.6 8.453-15.153 9.899-25.93 5.937 3.583 10.337 8.298 12.767 13.966 4.132 9.635 4.373 25.468-8.546 38.376-11.319 11.308-24.925 16.2-45.488 16.351-22.809-.169-40.06-7.484-51.275-21.742C35.236 139.966 29.808 120.682 29.605 96c.203-24.682 5.63-43.966 16.133-57.317C56.954 24.425 74.206 17.11 97.015 16.94c22.975.17 40.526 7.52 52.171 21.847 5.71 7.026 10.015 15.86 12.853 26.162l16.147-4.308c-3.44-12.68-8.853-23.606-16.219-32.668C147.036 9.607 125.202.195 97.28 0h-.36C69.008.195 47.396 9.642 32.8 28.08 19.931 44.485 13.226 67.315 13.002 96v.04c.224 28.685 6.929 51.515 19.798 67.92C47.397 182.358 69.008 191.806 96.92 192h.36c24.956-.165 42.502-6.687 57.048-21.223 19.013-19.003 18.426-42.612 12.158-57.223-4.493-10.482-13.157-18.944-24.949-24.566zm-41.737 40.595c-10.462.579-21.305-4.107-21.843-14.151-.404-7.558 5.373-15.992 22.701-17.005 1.985-.114 3.942-.169 5.874-.169 6.355 0 12.298.617 17.682 1.801-2.016 25.176-13.317 28.86-24.414 29.524z"/></svg>
+        </div>
+        <div class="share-app-name">Threads</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('reddit');closeShareSheet()">
+        <div class="share-app-ico" style="background:#FF4500">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+        </div>
+        <div class="share-app-name">Reddit</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('gmail');closeShareSheet()">
+        <div class="share-app-ico" style="background:#fff">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="#4285F4" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/><path fill="#EA4335" d="M0 5.457c0-2.023 2.309-3.178 3.927-1.964L12 9.548V0H1.636A1.636 1.636 0 0 0 0 1.636v3.82z" opacity=".5"/></svg>
+        </div>
+        <div class="share-app-name">Gmail</div>
+      </button>
+      <button class="share-app-btn" onclick="shareOn('linkedin');closeShareSheet()">
+        <div class="share-app-ico" style="background:#0A66C2">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </div>
+        <div class="share-app-name">LinkedIn</div>
+      </button>
+      <button class="share-app-btn" onclick="ssNativeShare()">
+        <div class="share-app-ico" style="background:linear-gradient(135deg,rgba(103,232,249,0.2),rgba(190,140,255,0.2));border:1px solid rgba(103,232,249,0.2)">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#6fe9ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        </div>
+        <div class="share-app-name">More...</div>
+      </button>
+    </div>
+    <div class="share-sheet-more">
+      <button class="share-sheet-cancel" onclick="closeShareSheet()">Close</button>
+      <button class="share-sheet-native-btn" onclick="ssNativeShare()">📤 Share via System</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── Firebase Config ───
+var firebaseConfig = {
+  apiKey: "AIzaSyB9SRJFCSeYf4NV-S8lV1KWABXrM-T3v9I",
+  authDomain: "neon-stream-45459.firebaseapp.com",
+  databaseURL: "https://neon-stream-45459-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "neon-stream-45459",
+  storageBucket: "neon-stream-45459.firebasestorage.app",
+  messagingSenderId: "977740567568",
+  appId: "1:977740567568:web:69d6a678ab95df53b6e695"
+};
+firebase.initializeApp(firebaseConfig);
+var db = firebase.database();
+
+// ─── Generate or load UID ───
+function genUID() {
+  var chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  var id = 'KF-';
+  for(var i=0;i<6;i++) id += chars[Math.floor(Math.random()*chars.length)];
+  return id;
+}
+var myUID = localStorage.getItem('kf_uid');
+if(!myUID){ myUID = genUID(); localStorage.setItem('kf_uid', myUID); }
+var myRefLink = 'https://kingfaucet.app/?ref=' + myUID;
+var userRef = db.ref('users/' + myUID);
+
+// ─── Load user data from Firebase ───
+function fbLoad() {
+  userRef.once('value', function(snap) {
+    var d = snap.val();
+    if(d) {
+      balance = parseFloat(d.balance) || 0;
+      totalClaimed = parseFloat(d.totalClaimed) || 0;
+      totalWithdrawn = parseFloat(d.totalWithdrawn) || 0;
+      claimCount = parseInt(d.claimCount) || 0;
+      normalClaimCount = parseInt(d.normalClaimCount) || 0;
+      boostClaimCount = parseInt(d.boostClaimCount) || 0;
+      totalRefEarned = parseFloat(d.totalRefEarned) || 0;
+      totalCommission = parseFloat(d.totalCommission) || 0;
+      // Fix logs: ensure amt is always a number
+      logs = d.logs ? Object.values(d.logs).map(function(l){
+        return { type: l.type||'Claim', amt: parseFloat(l.amt)||0, status: l.status||'success', time: l.time ? new Date(l.time) : new Date() };
+      }) : [];
+      // Fix referrals: ensure commission is always a number
+      referrals = d.referrals ? Object.values(d.referrals).map(function(r){
+        return { name: r.name||'User', claims: parseInt(r.claims)||0, commission: parseFloat(r.commission)||0, bonusPaid: r.bonusPaid||false };
+      }) : [];
+      var savedName = d.displayName || 'Neo Miner';
+      var nameEl = document.getElementById('disp-name');
+      var nameInp = document.getElementById('name-inp');
+      if(nameEl) nameEl.textContent = savedName;
+      if(nameInp) nameInp.value = savedName;
+    } else {
+      // New user — save initial data
+      fbSave();
+    }
+    syncUI();
+    renderLogs();
+    renderReferrals();
+  });
+}
+
+// ─── Save user data to Firebase ───
+function fbSave() {
+  userRef.set({
+    uid: myUID,
+    balance: balance,
+    totalClaimed: totalClaimed,
+    totalWithdrawn: totalWithdrawn,
+    claimCount: claimCount,
+    normalClaimCount: normalClaimCount,
+    boostClaimCount: boostClaimCount,
+    totalRefEarned: totalRefEarned,
+    totalCommission: totalCommission,
+    displayName: (document.getElementById('disp-name') || {textContent:'Neo Miner'}).textContent,
+    logs: logs.slice(-50), // last 50 logs
+    referrals: referrals,
+    lastSeen: Date.now()
+  });
+}
+
+// ─── Update UID display in profile ───
+function updateUIDDisplay() {
+  var els = document.querySelectorAll('.prof-uid, #prof-uid-display');
+  els.forEach(function(el){ el.textContent = 'UID: ' + myUID; });
+  var refLinkEl = document.getElementById('ref-link-val');
+  var ssLinkEl = document.getElementById('ss-link-txt');
+  if(refLinkEl) refLinkEl.textContent = myRefLink;
+  if(ssLinkEl) ssLinkEl.textContent = myRefLink;
+}
+
+var CLAIM_AMT = 0.0005, BOOST_AMT = 0.000667, COOLDOWN = 12, MIN_W = 0.05;
+// Normal: 100 claims × $0.0005 = $0.05 | Boost: 75 claims × $0.000667 ≈ $0.05
+var NORMAL_TARGET = 100, BOOST_TARGET = 75;
+var REFERRAL_BONUS = 0.05, REFERRAL_CLAIM_THRESHOLD = 10, COMMISSION_PCT = 0.40;
+var balance = 0, cooldown = 0, timer = null;
+var totalClaimed = 0, totalWithdrawn = 0, claimCount = 0;
+var normalClaimCount = 0, boostClaimCount = 0;
+var wMethod = 'FaucetPay';
+var logs = [];
+var referrals = []; // demo referrals
+var totalRefEarned = 0, totalCommission = 0;
+
+// ─── Navigation ───
+function goTab(t) {
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
+  document.querySelectorAll('.nb').forEach(function(b){b.classList.remove('active')});
+  document.getElementById('page-'+t).classList.add('active');
+  document.getElementById('nb-'+t).classList.add('active');
+  window.scrollTo(0,0);
+  syncUI();
+}
+
+// ─── Animated balance count up ───
+var animTarget = 0, animCurrent = 0, animFrame = null;
+function animateBalance(to) {
+  if(animFrame) cancelAnimationFrame(animFrame);
+  var from = animCurrent;
+  var diff = to - from;
+  if(Math.abs(diff) < 0.0001){
+    animCurrent = to;
+    setBalDisplay(to);
+    return;
+  }
+  var startTime = null;
+  var duration = Math.min(260, Math.abs(diff) * 90000);
+  function step(ts) {
+    if(!startTime) startTime = ts;
+    var progress = Math.min(1, (ts - startTime) / duration);
+    // easeOut
+    var eased = 1 - Math.pow(1 - progress, 3);
+    var cur = from + diff * eased;
+    animCurrent = cur;
+    setBalDisplay(cur);
+    if(progress < 1) {
+      animFrame = requestAnimationFrame(step);
+    } else {
+      animCurrent = to;
+      setBalDisplay(to);
+    }
+  }
+  animFrame = requestAnimationFrame(step);
+}
+
+function setBalDisplay(val) {
+  var v = parseFloat(val) || 0;
+  var s = v >= 0.01 ? '$' + v.toFixed(4) : '$' + v.toFixed(6);
+  var el = document.getElementById('hd-bal-num');
+  if(el) el.textContent = s;
+  var el2 = document.getElementById('w-bal');
+  if(el2) el2.textContent = s;
+}
+
+// ─── Sync all displays ───
+function syncUI() {
+  var safeBal = parseFloat(balance) || 0;
+  var safeTotalClaimed = parseFloat(totalClaimed) || 0;
+  var safeTotalWithdrawn = parseFloat(totalWithdrawn) || 0;
+  var safeRefEarned = parseFloat(totalRefEarned) || 0;
+  var safeCommission = parseFloat(totalCommission) || 0;
+  animateBalance(safeBal);
+  var pt = document.getElementById('p-total');
+  var pw = document.getElementById('p-withdrawn');
+  var pc = document.getElementById('p-count');
+  if(pt) pt.textContent = '$'+safeTotalClaimed.toFixed(4);
+  if(pw) pw.textContent = '$'+safeTotalWithdrawn.toFixed(4);
+  if(pc) pc.textContent = parseInt(claimCount)||0;
+  // referral stats
+  var rc = document.getElementById('ref-count');
+  var re = document.getElementById('ref-earned');
+  var rcm = document.getElementById('ref-commission');
+  if(rc) rc.textContent = referrals.length;
+  if(re) re.textContent = '$'+safeRefEarned.toFixed(2);
+  if(rcm) rcm.textContent = '$'+safeCommission.toFixed(2);
+}
+
+// ─── Coin pop animation ───
+function showCoinPop(amt, el) {
+  if (document.body && document.body.classList.contains('perf-lite')) return;
+  var pop = document.createElement('div');
+  pop.className = 'coin-pop';
+  pop.textContent = '+$' + amt.toFixed(4);
+  var rect = el ? el.getBoundingClientRect() : {left:window.innerWidth/2, top:window.innerHeight/2, width:0};
+  pop.style.left = (rect.left + rect.width/2 - 30) + 'px';
+  pop.style.top = (rect.top - 10) + 'px';
+  document.body.appendChild(pop);
+  setTimeout(function(){if(pop.parentNode)pop.parentNode.removeChild(pop)}, 800);
+}
+
+// ─── Captcha ───
+var pendingClaim = null;
+
+function showCaptcha(isBoost) {
+  pendingClaim = isBoost;
+  var overlay = document.getElementById('captcha-overlay');
+  var fill = document.getElementById('captcha-fill');
+  var label = document.getElementById('captcha-label');
+  var slider = document.getElementById('captcha-slider');
+  var success = document.getElementById('captcha-success');
+  // reset
+  fill.style.width = '0%';
+  label.style.display = '';
+  label.textContent = '→ Slide to verify →';
+  slider.style.left = '';
+  slider.style.transform = '';
+  success.style.display = 'none';
+  overlay.classList.add('show');
+  initSlider();
+}
+
+function initSlider() {
+  var track = document.getElementById('captcha-track');
+  var slider = document.getElementById('captcha-slider');
+  var fill = document.getElementById('captcha-fill');
+  var label = document.getElementById('captcha-label');
+  var success = document.getElementById('captcha-success');
+
+  var isDragging = false;
+  var startX = 0;
+  var sliderLeft = 0;
+  var trackW = 0;
+  var sliderW = 44;
+  var maxX = 0;
+
+  function getTrackWidth() {
+    trackW = track.offsetWidth - (8); // padding
+    maxX = trackW - sliderW - 4;
+  }
+
+  slider.style.position = 'relative';
+  slider.style.left = '0px';
+  slider.style.marginLeft = '4px';
+
+  function onStart(e) {
+    e.preventDefault();
+    isDragging = true;
+    getTrackWidth();
+    startX = (e.touches ? e.touches[0].clientX : e.clientX);
+    sliderLeft = 0;
+    slider.style.cursor = 'grabbing';
+  }
+
+  function onMove(e) {
+    if(!isDragging) return;
+    e.preventDefault();
+    var cx = e.touches ? e.touches[0].clientX : e.clientX;
+    var dx = cx - startX;
+    var newLeft = Math.max(0, Math.min(dx, maxX));
+    slider.style.left = newLeft + 'px';
+    var pct = (newLeft / maxX) * 100;
+    fill.style.width = pct + '%';
+    if(pct > 20) label.style.display = 'none';
+    else label.style.display = '';
+    if(pct >= 90) {
+      isDragging = false;
+      slider.style.left = maxX + 'px';
+      fill.style.width = '100%';
+      success.style.display = 'block';
+      slider.style.background = 'linear-gradient(135deg,#a8ffbe,#6fe9ff)';
+      setTimeout(function(){
+        document.getElementById('captcha-overlay').classList.remove('show');
+        slider.style.background = 'linear-gradient(135deg,#ffd700,#ff9900)';
+        doClaim(pendingClaim);
+      }, 700);
+    }
+  }
+
+  function onEnd() { isDragging = false; slider.style.cursor = 'grab'; }
+
+  slider.removeEventListener('mousedown', slider._md);
+  slider.removeEventListener('touchstart', slider._ts);
+  document.removeEventListener('mousemove', slider._mm);
+  document.removeEventListener('touchmove', slider._tm);
+  document.removeEventListener('mouseup', slider._mu);
+  document.removeEventListener('touchend', slider._te);
+
+  slider._md = onStart; slider._ts = onStart;
+  slider._mm = onMove; slider._tm = onMove;
+  slider._mu = onEnd; slider._te = onEnd;
+
+  slider.addEventListener('mousedown', onStart);
+  slider.addEventListener('touchstart', onStart, {passive:false});
+  document.addEventListener('mousemove', onMove);
+  document.addEventListener('touchmove', onMove, {passive:false});
+  document.addEventListener('mouseup', onEnd);
+  document.addEventListener('touchend', onEnd);
+}
+
+// ─── Popunder system ───
+// Real popunder URL yahan dalo jab ready ho:
+var POPUNDER_URL = ''; // e.g. 'https://youradnetwork.com/popunder?id=123'
+
+function firePopunder(isBoost) {
+  if(POPUNDER_URL) {
+    // Real URL hai → window.open (user gesture ke andar hai, block nahi hoga)
+    window.open(POPUNDER_URL, '_blank');
+    updateClaimCounters(); // click turant count ho
+  }
+  // Captcha dikhao
+  showCaptcha(isBoost);
+}
+
+// ─── Click counters ───
+var normalPendingClicks = 0;
+var boostPendingClicks  = 0;
+var NORMAL_CLICKS_NEEDED = 1;
+var BOOST_CLICKS_NEEDED  = 2;
+
+// Active claim tracker (dusre ko lock karne ke liye)
+var activeClaimType = null; // null | 'normal' | 'boost'
+
+function lockOther(activeType) {
+  if(activeType === 'normal') {
+    var bb = document.getElementById('btn-boost');
+    if(bb && !bb.disabled){ bb._prevClass=bb.className; bb._prevTxt=bb.textContent; bb.className='btn-dis'; bb.disabled=true; bb.textContent='🔒 Locked'; }
+  } else {
+    var bn = document.getElementById('btn-normal');
+    if(bn && !bn.disabled){ bn._prevClass=bn.className; bn._prevTxt=bn.textContent; bn.className='btn-dis'; bn.disabled=true; bn.textContent='🔒 Locked'; }
+  }
+}
+
+function unlockOther(activeType) {
+  if(activeType === 'normal') {
+    var bb = document.getElementById('btn-boost');
+    if(bb && bb._prevClass){ bb.className=bb._prevClass; bb.textContent=bb._prevTxt; bb.disabled=false; bb._prevClass=null; }
+  } else {
+    var bn = document.getElementById('btn-normal');
+    if(bn && bn._prevClass){ bn.className=bn._prevClass; bn.textContent=bn._prevTxt; bn.disabled=false; bn._prevClass=null; }
+  }
+}
+
+function updateDots() {
+  for(var i=0;i<NORMAL_CLICKS_NEEDED;i++){
+    var d = document.getElementById('nd'+i);
+    if(d) d.className = 'click-dot' + (i < normalPendingClicks ? ' active-n' : '');
+  }
+  for(var j=0;j<BOOST_CLICKS_NEEDED;j++){
+    var e = document.getElementById('bd'+j);
+    if(e) e.className = 'click-dot' + (j < boostPendingClicks ? ' active-b' : '');
+  }
+}
+
+// ─── Mini timer ───
+var miniTimer = null;
+var boostWaiting = false;
+
+// ─── Claim ───
+function claim(isBoost) {
+  if(cooldown > 0) return;
+  // Dusra type active hai to block karo
+  if(activeClaimType !== null && activeClaimType !== (isBoost ? 'boost' : 'normal')) return;
+
+  if(isBoost) {
+    if(!boostWaiting) {
+      // First click
+      activeClaimType = 'boost';
+      lockOther('boost');
+      boostPendingClicks = 1;
+      updateDots();
+      boostWaiting = true;
+      var bb = document.getElementById('btn-boost');
+      var timeLeft = 10;
+      if(bb){ bb.className='btn-dis'; bb.textContent='Wait '+timeLeft+'s'; bb.disabled=true; }
+      if(miniTimer) clearInterval(miniTimer);
+      miniTimer = setInterval(function(){
+        timeLeft--;
+        var b = document.getElementById('btn-boost');
+        if(timeLeft > 0) {
+          if(b){ b.textContent='Wait '+timeLeft+'s'; }
+        } else {
+          clearInterval(miniTimer); miniTimer = null;
+          if(b){ b.className='btn-b'; b.textContent='Click Again! 🔥'; b.disabled=false; }
+        }
+      }, 1000);
+    } else {
+      // Second click
+      boostPendingClicks = 2;
+      updateDots();
+      boostWaiting = false;
+      var bb2 = document.getElementById('btn-boost');
+      var timeLeft2 = 5;
+      if(bb2){ bb2.className='btn-dis'; bb2.textContent='Wait '+timeLeft2+'s'; bb2.disabled=true; }
+      if(miniTimer) clearInterval(miniTimer);
+      miniTimer = setInterval(function(){
+        timeLeft2--;
+        var b = document.getElementById('btn-boost');
+        if(timeLeft2 > 0) {
+          if(b){ b.textContent='Wait '+timeLeft2+'s'; }
+        } else {
+          clearInterval(miniTimer); miniTimer = null;
+          boostPendingClicks = 0;
+          updateDots();
+          firePopunder(true);
+        }
+      }, 1000);
+    }
+  } else {
+    // Normal: 1 click → 12s → popunder/captcha
+    if(normalPendingClicks === 0) {
+      activeClaimType = 'normal';
+      lockOther('normal');
+      normalPendingClicks = 1;
+      updateDots();
+      var bn = document.getElementById('btn-normal');
+      var timeLeft3 = 12;
+      if(bn){ bn.className='btn-dis'; bn.textContent='Wait '+timeLeft3+'s'; bn.disabled=true; }
+      var normTimer = setInterval(function(){
+        timeLeft3--;
+        var b = document.getElementById('btn-normal');
+        if(timeLeft3 > 0) {
+          if(b){ b.textContent='Wait '+timeLeft3+'s'; }
+        } else {
+          clearInterval(normTimer);
+          normalPendingClicks = 0;
+          updateDots();
+          firePopunder(false);
+        }
+      }, 1000);
+    }
+  }
+}
+
+function doClaim(isBoost) {
+  var amt = isBoost ? BOOST_AMT : CLAIM_AMT;
+  var btn = document.getElementById(isBoost?'btn-boost':'btn-normal');
+  // Reset click states
+  boostWaiting = false;
+  boostPendingClicks = 0;
+  normalPendingClicks = 0;
+  updateDots();
+  // Unlock the other button
+  unlockOther(activeClaimType);
+  activeClaimType = null;
+  balance = +(balance + amt).toFixed(6);
+  totalClaimed = +(totalClaimed + amt).toFixed(6);
+  claimCount++;
+  if(isBoost) boostClaimCount++; else normalClaimCount++;
+  updateClaimCounters();
+
+  // Check referrer commission
+  referrals.forEach(function(r){
+    if(typeof r.claims !== 'number') r.claims = parseInt(r.claims)||0;
+    if(typeof r.commission !== 'number') r.commission = parseFloat(r.commission)||0;
+    if(r.claims < REFERRAL_CLAIM_THRESHOLD) {
+      r.claims++;
+      if(r.claims === REFERRAL_CLAIM_THRESHOLD) {
+        balance = +(balance + REFERRAL_BONUS).toFixed(6);
+        totalRefEarned = +(totalRefEarned + REFERRAL_BONUS).toFixed(2);
+        r.bonusPaid = true;
+        renderReferrals();
+      }
+    }
+    var comm = +(amt * COMMISSION_PCT).toFixed(6);
+    balance = +(balance + comm).toFixed(6);
+    totalCommission = +(totalCommission + comm).toFixed(6);
+    r.commission = +(r.commission + comm).toFixed(6);
+  });
+
+  showCoinPop(amt, btn);
+  var el = document.getElementById('hd-bal-num');
+  if(el){
+    el.classList.add('pop');
+    setTimeout(function(){el.classList.remove('pop')},400);
+  }
+  startCooldown();
+  addLog(isBoost ? 'Boost Claim' : 'Normal Claim', amt, 'success');
+  syncUI();
+  fbSave();
+}
+
+function updateClaimCounters() {
+  var nb = document.getElementById('normal-badge');
+  var bb = document.getElementById('boost-badge');
+  var nf = document.getElementById('normal-fill');
+  var bf = document.getElementById('boost-fill');
+  if(nb) nb.textContent = '⚡ ' + normalClaimCount + ' / ' + NORMAL_TARGET;
+  if(bb) bb.textContent = '🔥 ' + boostClaimCount + ' / ' + BOOST_TARGET;
+  if(nf) nf.style.width = Math.min(100,(normalClaimCount/NORMAL_TARGET*100)).toFixed(1)+'%';
+  if(bf) bf.style.width = Math.min(100,(boostClaimCount/BOOST_TARGET*100)).toFixed(1)+'%';
+}
+
+function startCooldown() {
+  cooldown = COOLDOWN;
+  updateCd();
+  if(timer) clearInterval(timer);
+  timer = setInterval(function(){
+    cooldown = Math.max(0, cooldown-1);
+    updateCd();
+    if(cooldown === 0) clearInterval(timer);
+  }, 1000);
+}
+
+function updateCd() {
+  var rdy = cooldown === 0;
+  var pct = rdy ? 100 : ((COOLDOWN-cooldown)/COOLDOWN*100);
+  var rtxt = document.getElementById('ready-txt');
+  var plbl = document.getElementById('prog-lbl');
+  var pbar = document.getElementById('prog-bar');
+  var bn = document.getElementById('btn-normal');
+  var bb = document.getElementById('btn-boost');
+  if(rtxt) rtxt.textContent = rdy ? '🟢 Ready to claim!' : '⏳ Next in '+cooldown+'s';
+  if(plbl) plbl.textContent = rdy ? '✅ Ready' : cooldown+'s remaining';
+  if(pbar) pbar.style.width = pct+'%';
+  if(rdy) {
+    if(bn){bn.className='btn-n';bn.textContent='Claim Now';bn.disabled=false}
+    // Only restore boost btn if not in mid-click waiting state
+    if(bb && !boostWaiting && !miniTimer){bb.className='btn-b';bb.textContent='Boost Claim';bb.disabled=false}
+    else if(bb && !boostWaiting && miniTimer){} // mini timer running, leave it
+  } else {
+    if(bn){bn.className='btn-dis';bn.textContent='Wait '+cooldown+'s';bn.disabled=true}
+    if(bb){bb.className='btn-dis';bb.textContent='Wait '+cooldown+'s';bb.disabled=true}
+  }
+}
+
+// ─── Withdraw ───
+function selMethod(m) {
+  wMethod = m;
+  var methods = {
+    'FaucetPay': {id:'mfp', lbl:'FaucetPay Email / ID', ph:'Enter your FaucetPay email/ID', amt:'0.050', amtLbl:'Amount (min $0.05)', step:'0.001'},
+    'USDT TRC20': {id:'musdt', lbl:'USDT TRC20 Wallet Address', ph:'Enter USDT TRC20 wallet address', amt:'0.050', amtLbl:'Amount (min $0.05)', step:'0.001'},
+    'PayPal': {id:'mpaypal', lbl:'PayPal Email Address', ph:'Enter your PayPal email address', amt:'0.100', amtLbl:'Amount (min $0.100)', step:'0.001'},
+    'UPI': {id:'mupi', lbl:'UPI ID', ph:'Enter your UPI ID (e.g. name@upi)', amt:'5', amtLbl:'Amount (min ₹5)', step:'1'}
+  };
+  ['mfp','musdt','mpaypal','mupi'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.className = 'mth';
+    // restore arrow icon
+    var nm = el ? el.querySelector('.mth-name svg') : null;
+    if(nm) nm.style.stroke = 'rgba(214,245,255,0.35)';
+  });
+  var cfg = methods[m];
+  if(!cfg) return;
+  var btn = document.getElementById(cfg.id);
+  if(btn) {
+    btn.className = 'mth sel';
+    var sv = btn.querySelector('.mth-name svg');
+    if(sv) sv.style.stroke = '#6fe9ff';
+  }
+  var lbl = document.getElementById('w-lbl');
+  var addr = document.getElementById('w-addr');
+  var amtI = document.getElementById('w-amt');
+  var amtLbl = document.getElementById('w-amt-lbl');
+  if(lbl) lbl.textContent = cfg.lbl;
+  if(addr) addr.placeholder = cfg.ph;
+  if(amtI){ amtI.value = cfg.amt; amtI.step = cfg.step; }
+  if(amtLbl) amtLbl.textContent = cfg.amtLbl;
+}
+
+function doWithdraw() {
+  var amt = parseFloat(document.getElementById('w-amt').value||'0');
+  var addr = (document.getElementById('w-addr').value||'').trim();
+  var minMap = {'FaucetPay':0.05,'USDT TRC20':0.05,'PayPal':0.100,'UPI':5};
+  var minAmt = minMap[wMethod] || 0.05;
+  var currency = wMethod==='UPI' ? '₹' : '$';
+
+  if(isNaN(amt)||amt<minAmt){alert('Minimum withdrawal: '+currency+minAmt+' ('+wMethod+')');return}
+  if(!addr){alert('Enter your '+wMethod+' payout details');return}
+
+  // ── Validation per method ──
+  if(wMethod==='FaucetPay' || wMethod==='PayPal') {
+    // valid email: has @, has dot after @, no spaces
+    var emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(!emailReg.test(addr)){
+      alert('❌ Invalid email address!\nExample: yourname@gmail.com');
+      return;
+    }
+  }
+
+  if(wMethod==='USDT TRC20') {
+    // TRC20: starts with T, exactly 34 alphanumeric chars
+    var trc20Reg = /^T[A-Za-z0-9]{33}$/;
+    if(!trc20Reg.test(addr)){
+      alert('❌ Invalid TRC20 address!\n• Must start with "T"\n• Must be exactly 34 characters\nExample: TXyz...1234 (34 chars total)');
+      return;
+    }
+  }
+
+  if(wMethod==='UPI') {
+    // UPI: alphanumeric@bankhandle, no spaces
+    var upiReg = /^[a-zA-Z0-9.\-_+]+@[a-zA-Z0-9]+$/;
+    if(!upiReg.test(addr)){
+      alert('❌ Invalid UPI ID!\nExample: yourname@upi, mobile@paytm, name@okaxis');
+      return;
+    }
+  }
+
+  if(wMethod!=='UPI' && amt>balance){alert('Insufficient balance');return}
+  if(wMethod!=='UPI') {
+    balance = +(balance-amt).toFixed(6);
+    totalWithdrawn = +(totalWithdrawn+amt).toFixed(6);
+  }
+  addLog('Withdraw • '+wMethod, amt, 'pending');
+  syncUI();
+  fbSave();
+  alert('✅ Withdrawal request submitted!\nProcessing within 24h.');
+}
+
+// ─── Logs ───
+function addLog(type, amt, status) {
+  var now = new Date();
+  logs.unshift({type:type, amt:amt, status:status, time:now});
+  if(logs.length>50) logs=logs.slice(0,50);
+  renderLogs();
+}
+
+function timeAgo(d) {
+  var sec = Math.floor((new Date()-d)/1000);
+  if(sec<5) return 'Just now';
+  if(sec<60) return sec+'s ago';
+  if(sec<3600) return Math.floor(sec/60)+'m ago';
+  return Math.floor(sec/3600)+'h ago';
+}
+
+var icPaths = {
+  'Normal Claim':'<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
+  'Boost Claim':'<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>',
+};
+
+function getIcClass(t) {
+  if(t.includes('Boost')) return 'b';
+  if(t.includes('Withdraw')) return 'w';
+  return 's';
+}
+
+function getIcPath(t) {
+  if(icPaths[t]) return icPaths[t];
+  return '<rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20"/><circle cx="17" cy="15" r="1.5" fill="currentColor" stroke="none"/>';
+}
+
+function renderLogs() {
+  var wrap = document.getElementById('logs-wrap');
+  if(!wrap) return;
+  if(!logs.length) {
+    wrap.innerHTML = '<div class="empty">No transactions yet.<br>Start claiming to see history!</div>';
+    return;
+  }
+  var html = '';
+  logs.forEach(function(l,i){
+    var stClass = l.status==='success'?'ls':l.status==='pending'?'lp':'lf';
+    var stTxt = l.status==='success'?'Success':l.status==='pending'?'Pending':'Failed';
+    var icoC = l.status==='pending'?'p':getIcClass(l.type);
+    html += '<div class="log">'
+      +'<div class="log-left">'
+      +'<div class="log-ico '+icoC+'"><svg viewBox="0 0 24 24" style="width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round">'+getIcPath(l.type)+'</svg></div>'
+      +'<div><div class="log-name">'+l.type+'</div><div class="log-time">'+timeAgo(l.time)+'</div></div>'
+      +'</div>'
+      +'<div class="log-r"><div class="log-amt">$'+(parseFloat(l.amt)||0).toFixed(4)+'</div><div class="log-st '+stClass+'">'+stTxt+'</div></div>'
+      +'</div>';
+    if((i+1)%8===0 && i+1<logs.length && Math.floor((i+1)/8) <= 1) {
+      html += '<div class="ad"><div class="ad-top"><span class="ad-pill">✦ Ad Slot</span><span class="ad-resp">In-List</span></div><div class="ad-body"><div class="ad-t">History In-Feed Ad</div><div class="ad-s">Between transactions</div></div></div>';
+    }
+  });
+  wrap.innerHTML = html;
+}
+
+// ─── Profile ───
+function saveName() {
+  var n = (document.getElementById('name-inp').value||'').trim();
+  if(n){ document.getElementById('disp-name').textContent = n; fbSave(); }
+}
+
+function copyWallet() {
+  var addr = 'TRC20-TEMPLATE-ADDRESS-0001';
+  var btn = document.getElementById('copy-btn');
+  if(navigator.clipboard) {
+    navigator.clipboard.writeText(addr).then(function(){
+      btn.textContent = '✅ Copied!';
+      setTimeout(function(){btn.textContent='📋 Copy Wallet Tag'},1500);
+    });
+  } else {
+    btn.textContent = '✅ Copied!';
+    setTimeout(function(){btn.textContent='📋 Copy Wallet Tag'},1500);
+  }
+}
+
+// ─── Referral ───
+// UID and refLink are set by Firebase init above
+// ─── Performance mode on low-end devices ───
+(function(){
+  try {
+    var dm = navigator.deviceMemory || 0;
+    var hc = navigator.hardwareConcurrency || 0;
+    if ((dm && dm <= 4) || (hc && hc <= 4) || /Android 9|Android 10|Android 11|Android 12|Android 13|Android 14/i.test(navigator.userAgent)) {
+      document.documentElement.classList.add('perf-lite');
+      document.body && document.body.classList.add('perf-lite');
+    }
+  } catch(e) {}
+})();
+
+document.getElementById('ref-link-val').textContent = myRefLink;
+var ssLinkEl = document.getElementById('ss-link-txt');
+if(ssLinkEl) ssLinkEl.textContent = myRefLink;
+
+function openShareSheet() {
+  document.getElementById('share-sheet-overlay').classList.add('show');
+}
+function closeShareSheet(e) {
+  if(!e || e.target === document.getElementById('share-sheet-overlay')) {
+    document.getElementById('share-sheet-overlay').classList.remove('show');
+  }
+}
+function sscopLink() {
+  var btn = document.getElementById('ss-copy-btn');
+  if(navigator.clipboard) {
+    navigator.clipboard.writeText(myRefLink).then(function(){
+      btn.textContent = '✅ Copied!';
+      setTimeout(function(){btn.textContent='📋 Copy'},1500);
+    });
+  } else {
+    btn.textContent = '✅ Copied!';
+    setTimeout(function(){btn.textContent='📋 Copy'},1500);
+  }
+}
+function ssNativeShare() {
+  if(navigator.share) {
+    navigator.share({title:'KING FAUCET', text:'💰 Earn free crypto! Claim & withdraw instantly.', url: myRefLink});
+  } else {
+    sscopLink();
+  }
+  closeShareSheet();
+}
+
+function copyRefLink() {
+  var btn = document.getElementById('ref-copy-btn');
+  if(navigator.clipboard) {
+    navigator.clipboard.writeText(myRefLink).then(function(){
+      btn.textContent = '✅ Link Copied!';
+      setTimeout(function(){btn.textContent='📋 Copy Referral Link'},1600);
+    });
+  } else {
+    btn.textContent = '✅ Link Copied!';
+    setTimeout(function(){btn.textContent='📋 Copy Referral Link'},1600);
+  }
+}
+
+function shareOn(platform) {
+  var link = encodeURIComponent(myRefLink);
+  var txt  = encodeURIComponent('💰 Earn free crypto on KING FAUCET! Claim every 10s & withdraw to FaucetPay or USDT TRC20. Join: ' + myRefLink);
+  var url;
+
+  if(platform === 'whatsapp') {
+    // Latest: api.whatsapp.com/send — opens app directly, no web fallback delay
+    url = 'https://api.whatsapp.com/send?text=' + txt;
+
+  } else if(platform === 'telegram') {
+    // Latest Telegram share URL
+    url = 'https://t.me/share/url?url=' + link + '&text=' + encodeURIComponent('💰 Earn free crypto on KING FAUCET! Claim every 10s & withdraw instantly.');
+
+  } else if(platform === 'twitter') {
+    // X (Twitter) latest intent URL
+    url = 'https://x.com/intent/post?text=' + txt;
+
+  } else if(platform === 'facebook') {
+    // Facebook sharer latest
+    url = 'https://www.facebook.com/sharer/sharer.php?u=' + link + '&quote=' + encodeURIComponent('💰 Earn free crypto on KING FAUCET!');
+
+  } else if(platform === 'instagram') {
+    // Try to open Instagram app directly, fallback to clipboard
+    var igMsg = '💰 Earn free crypto on KING FAUCET! Join: ' + myRefLink;
+    try {
+      window.location.href = 'instagram://app';
+      setTimeout(function(){
+        if(navigator.clipboard) {
+          navigator.clipboard.writeText(igMsg).then(function(){
+            alert('✅ Link copied!\nPaste it in your Instagram bio, story or DM 📸');
+          });
+        } else {
+          alert('Your link:\n' + myRefLink + '\n\nPaste in Instagram bio or story 📸');
+        }
+      }, 1200);
+    } catch(e) {
+      if(navigator.clipboard) {
+        navigator.clipboard.writeText(igMsg).then(function(){
+          alert('✅ Link copied!\nPaste it in your Instagram bio, story or DM 📸');
+        });
+      }
+    }
+    return;
+
+  } else if(platform === 'reddit') {
+    url = 'https://www.reddit.com/submit?url=' + link + '&title=' + encodeURIComponent('Earn free crypto with KING FAUCET! 💰');
+
+  } else if(platform === 'gmail') {
+    var sub  = encodeURIComponent('Earn free crypto on KING FAUCET! 💰');
+    var body = encodeURIComponent('Hey!\n\nJoin KING FAUCET and earn free crypto. Claim every 10s & withdraw instantly.\n\n👉 ' + myRefLink + '\n\nSee you there! 🚀');
+    url = 'https://mail.google.com/mail/?view=cm&to=&su=' + sub + '&body=' + body;
+
+  } else if(platform === 'threads') {
+    url = 'https://www.threads.net/intent/post?text=' + txt;
+
+  } else if(platform === 'linkedin') {
+    url = 'https://www.linkedin.com/sharing/share-offsite/?url=' + link;
+
+  } else {
+    return;
+  }
+
+  window.open(url, '_blank', 'noopener,noreferrer');
+}
+
+function renderReferrals() {
+  var wrap = document.getElementById('ref-list-wrap');
+  if(!wrap) return;
+  if(!referrals.length) {
+    wrap.innerHTML = '<div class="empty">No referrals yet.<br>Share your link and start earning!</div>';
+    return;
+  }
+  var html = '<div class="ref-list">';
+  referrals.forEach(function(r){
+    var initials = r.name.split(' ').map(function(w){return w[0]}).join('').toUpperCase().slice(0,2);
+    var done = r.claims >= REFERRAL_CLAIM_THRESHOLD;
+    html += '<div class="ref-item">'
+      +'<div class="ref-item-l">'
+      +'<div class="ref-item-av">'+initials+'</div>'
+      +'<div>'
+      +'<div class="ref-item-name">'+r.name+'</div>'
+      +'<div class="ref-item-sub">'+r.claims+'/10 claims &nbsp;<span class="ref-badge '+(done?'done':'prog')+'">'+(done?'✅ Bonus Paid':'⏳ In Progress')+'</span></div>'
+      +'</div>'
+      +'</div>'
+      +'<div class="ref-item-r">'
+      +'<div class="ref-item-earned">+$'+((done?REFERRAL_BONUS:0)+(parseFloat(r.commission)||0)).toFixed(4)+'</div>'
+      +'<div class="ref-item-claims">Commission: $'+(parseFloat(r.commission)||0).toFixed(4)+'</div>'
+      +'</div>'
+      +'</div>';
+  });
+  html += '</div>';
+  wrap.innerHTML = html;
+}
+
+// ─── Update time-ago every 30s ───
+setInterval(function(){renderLogs()}, 30000);
+
+// Init — load from Firebase
+updateUIDDisplay();
+fbLoad();
+</script>
+
+<!-- ══════════ SECRET ADMIN PANEL ══════════ -->
+<div id="adm-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:#020407;overflow-y:auto;font-family:monospace,-apple-system,sans-serif">
+<style>
+#adm-overlay{color:#c8ffd4}
+#adm-overlay *{box-sizing:border-box}
+.ah{position:sticky;top:0;z-index:50;background:rgba(2,4,7,0.97);border-bottom:1px solid rgba(0,255,136,0.15);padding:10px 14px;display:flex;align-items:center;justify-content:space-between}
+.ah-logo{font-size:14px;font-weight:900;color:#00ff88;letter-spacing:.04em}
+.ah-logo b{color:rgba(200,255,212,0.4);font-weight:700}
+.ah-live{font-size:10px;color:#00ff88;display:flex;align-items:center;gap:5px}
+.ah-live::before{content:'';width:7px;height:7px;border-radius:50%;background:#00ff88;animation:abl 1.2s ease-in-out infinite}
+.ah-close{font-size:12px;color:#fff;background:none;border:1px solid rgba(255,255,255,0.15);border-radius:8px;padding:6px 14px;cursor:pointer}
+.atabs{display:flex;border-bottom:1px solid rgba(0,255,136,0.12);padding:0 14px;background:rgba(2,4,7,0.9);overflow-x:auto}
+.atabs::-webkit-scrollbar{display:none}
+.at{padding:11px 14px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(200,255,212,0.35);border:none;background:none;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;font-family:inherit;transition:color .2s}
+.at.on{color:#00ff88;border-bottom-color:#00ff88}
+.apg{display:none;padding:13px}
+.apg.on{display:block}
+.agrid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:13px}
+.acard{background:rgba(8,16,28,0.95);border:1px solid rgba(0,255,136,0.12);border-radius:13px;padding:12px}
+.acard-l{font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:rgba(200,255,212,0.35);margin-bottom:5px}
+.acard-v{font-size:18px;font-weight:800;color:#fff}
+.acard-v.g{color:#00ff88}.acard-v.y{color:#ffcc00}.acard-v.c{color:#00eeff}
+.asec{background:rgba(8,16,28,0.95);border:1px solid rgba(0,255,136,0.12);border-radius:13px;margin-bottom:11px;overflow:hidden}
+.asec-h{padding:10px 14px;border-bottom:1px solid rgba(0,255,136,0.1);font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:#00ff88}
+.arow{padding:11px 14px;border-bottom:1px solid rgba(0,255,136,0.06);cursor:pointer;transition:background .15s}
+.arow:last-child{border-bottom:none}
+.arow:hover,.arow:active{background:rgba(0,255,136,0.05)}
+.arow-top{display:flex;align-items:center;justify-content:space-between}
+.auid{font-size:12px;font-weight:800;color:#00eeff}
+.abal{font-size:13px;font-weight:800;color:#00ff88}
+.aname{font-size:10px;color:rgba(200,255,212,0.4);margin-top:2px}
+.ameta{font-size:10px;color:rgba(200,255,212,0.35);margin-top:2px}
+.awdrow{padding:12px 14px;border-bottom:1px solid rgba(0,255,136,0.06)}
+.awdrow:last-child{border-bottom:none}
+.awdt{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
+.awduid{font-size:11px;font-weight:800;color:#00eeff}
+.awdamt{font-size:14px;font-weight:800;color:#ffcc00}
+.awdmeta{font-size:10px;color:rgba(200,255,212,0.4);margin-bottom:9px;line-height:1.6}
+.awdbtns{display:flex;gap:8px}
+.aok{flex:1;padding:9px;border-radius:10px;border:none;cursor:pointer;background:linear-gradient(135deg,#00ff88,#00cc6a);color:#000;font-weight:800;font-size:11px;font-family:inherit}
+.ano{flex:1;padding:9px;border-radius:10px;border:1px solid rgba(255,68,102,0.3);cursor:pointer;background:rgba(255,68,102,0.1);color:#ff4466;font-weight:800;font-size:11px;font-family:inherit}
+.alogrow{display:flex;align-items:center;justify-content:space-between;padding:9px 14px;border-bottom:1px solid rgba(0,255,136,0.05)}
+.alogrow:last-child{border-bottom:none}
+.alogt{font-size:11px;font-weight:700}
+.alogsub{font-size:9px;color:rgba(200,255,212,0.35);margin-top:2px}
+.alogamt{font-size:12px;font-weight:800;color:#00ff88}
+.ast{font-size:9px;padding:2px 7px;border-radius:99px;margin-top:2px;display:inline-block}
+.as-ok{background:rgba(0,255,136,0.1);color:#00ff88;border:1px solid rgba(0,255,136,0.2)}
+.as-pd{background:rgba(255,204,0,0.1);color:#ffcc00;border:1px solid rgba(255,204,0,0.2)}
+.as-fl{background:rgba(255,68,102,0.1);color:#ff4466;border:1px solid rgba(255,68,102,0.2)}
+.aback{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:rgba(200,255,212,0.5);background:none;border:1px solid rgba(255,255,255,0.1);border-radius:8px;padding:6px 12px;cursor:pointer;margin-bottom:12px;font-family:inherit}
+.adet-uid{font-size:17px;font-weight:900;color:#00ff88;margin-bottom:2px}
+.adet-name{font-size:11px;color:rgba(200,255,212,0.4);margin-bottom:12px}
+.adgrid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:12px}
+.adstat{background:rgba(0,0,0,0.4);border:1px solid rgba(0,255,136,0.08);border-radius:10px;padding:9px 11px}
+.adstat-l{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:rgba(200,255,212,0.35);margin-bottom:3px}
+.adstat-v{font-size:13px;font-weight:800;color:#fff}
+.agive{background:rgba(0,0,0,0.4);border:1px solid rgba(0,255,136,0.15);border-radius:12px;padding:12px;margin-bottom:12px}
+.agive-t{font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:#00ff88;margin-bottom:9px}
+.agive-r{display:flex;gap:8px}
+.agive-i{flex:1;background:rgba(0,0,0,0.5);border:1px solid rgba(0,255,136,0.2);border-radius:10px;padding:10px 12px;font-size:13px;color:#fff;font-family:inherit;outline:none}
+.agive-i:focus{border-color:rgba(0,255,136,0.5)}
+.agive-b{padding:10px 14px;border-radius:10px;border:none;cursor:pointer;background:linear-gradient(135deg,#00ff88,#00cc6a);color:#000;font-weight:800;font-size:12px;font-family:inherit;white-space:nowrap}
+.asrch{width:100%;background:rgba(0,0,0,0.4);border:1px solid rgba(0,255,136,0.15);border-radius:10px;padding:10px 13px;font-size:12px;color:#fff;font-family:inherit;outline:none;margin-bottom:10px}
+.afeed{padding:9px 14px;border-bottom:1px solid rgba(0,255,136,0.05);display:flex;align-items:flex-start;gap:9px}
+.afeed:last-child{border-bottom:none}
+.adot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:3px;background:#00ff88;box-shadow:0 0 6px #00ff88}
+.afeedtxt{font-size:11px;line-height:1.5;color:rgba(200,255,212,0.7)}
+.afeedtime{font-size:9px;color:rgba(200,255,212,0.35);margin-top:2px}
+.aempty{text-align:center;padding:20px;color:rgba(200,255,212,0.3);font-size:11px}
+.aloading{text-align:center;padding:32px;color:rgba(200,255,212,0.35);font-size:12px}
+#adm-toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%) translateY(80px);background:rgba(0,255,136,0.12);border:1px solid rgba(0,255,136,0.3);border-radius:12px;padding:9px 18px;font-size:12px;color:#00ff88;z-index:10001;transition:transform .3s ease;white-space:nowrap;pointer-events:none;font-family:inherit}
+#adm-toast.show{transform:translateX(-50%) translateY(0)}
+#adm-toast.aerr{background:rgba(255,68,102,0.12);border-color:rgba(255,68,102,0.3);color:#ff4466}
+#adm-det{display:none;position:fixed;inset:0;z-index:10001;background:#020407;overflow-y:auto;padding:14px;font-family:monospace,-apple-system,sans-serif;color:#c8ffd4}
+@keyframes abl{0%,100%{opacity:1}50%{opacity:.25}}
+</style>
+
+<!-- HEADER -->
+<div class="ah">
+  <div>
+    <div class="ah-logo">KF <b>ADMIN</b></div>
+    <div class="ah-live">LIVE</div>
+  </div>
+  <button class="ah-close" onclick="admClose()">✕ Close</button>
+</div>
+
+<!-- TABS -->
+<div class="atabs">
+  <button class="at on" onclick="admTab('dash')">Dashboard</button>
+  <button class="at" onclick="admTab('users')">Users</button>
+  <button class="at" onclick="admTab('wd')">Withdrawals</button>
+  <button class="at" onclick="admTab('feed')">Activity</button>
+</div>
+
+<!-- DASHBOARD -->
+<div class="apg on" id="apg-dash">
+  <div class="agrid">
+    <div class="acard"><div class="acard-l">Total Users</div><div class="acard-v c" id="ast-u">—</div></div>
+    <div class="acard"><div class="acard-l">Pending W/D</div><div class="acard-v y" id="ast-w">—</div></div>
+    <div class="acard"><div class="acard-l">Total Balance</div><div class="acard-v g" id="ast-b">—</div></div>
+    <div class="acard"><div class="acard-l">Total Claims</div><div class="acard-v" id="ast-c">—</div></div>
+  </div>
+  <div class="asec"><div class="asec-h">⚡ Pending Withdrawals</div><div id="adash-wd"><div class="aloading">Loading...</div></div></div>
+  <div class="asec"><div class="asec-h">👥 Recent Users</div><div id="adash-u"><div class="aloading">Loading...</div></div></div>
+</div>
+
+<!-- USERS -->
+<div class="apg" id="apg-users">
+  <input class="asrch" id="asrch" placeholder="🔍 UID ya naam..." oninput="admSearch()"/>
+  <div class="asec">
+    <div class="asec-h" style="display:flex;justify-content:space-between"><span>All Users</span><span id="auct" style="color:rgba(200,255,212,0.35);font-size:9px">...</span></div>
+    <div id="aulist"><div class="aloading">Loading...</div></div>
+  </div>
+</div>
+
+<!-- WITHDRAWALS -->
+<div class="apg" id="apg-wd">
+  <div class="asec"><div class="asec-h">⏳ Pending</div><div id="awd-p"><div class="aloading">Loading...</div></div></div>
+  <div class="asec"><div class="asec-h">✅ Processed</div><div id="awd-d"><div class="aloading">Loading...</div></div></div>
+</div>
+
+<!-- ACTIVITY -->
+<div class="apg" id="apg-feed">
+  <div class="asec"><div class="asec-h">📡 Live Feed</div><div id="afeed-wrap"><div class="aempty">Activity ka wait kar...</div></div></div>
+</div>
+
+</div><!-- end adm-overlay -->
+
+<!-- User Detail -->
+<div id="adm-det">
+  <button class="aback" onclick="admDetClose()">← Back</button>
+  <div id="adm-det-c"></div>
+</div>
+
+<div id="adm-toast"></div>
+
+<script>
+// ══ ADMIN PANEL — uses existing 'db' variable from KF ══
+var _au = {}; // admin users cache
+var _af = []; // activity feed
+var _aInit = false;
+
+function admOpen() {
+  document.getElementById('adm-overlay').style.display = 'block';
+  document.body.style.overflow = 'hidden';
+  if(!_aInit) { _aInit = true; _aLoad(); _aFeed(); }
+}
+
+function admClose() {
+  document.getElementById('adm-overlay').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+function admTab(t) {
+  document.querySelectorAll('.at').forEach(function(b){b.classList.remove('on')});
+  document.querySelectorAll('.apg').forEach(function(p){p.classList.remove('on')});
+  var tabs=['dash','users','wd','feed'];
+  document.querySelectorAll('.at')[tabs.indexOf(t)].classList.add('on');
+  document.getElementById('apg-'+t).classList.add('on');
+}
+
+function _aToast(msg, err) {
+  var t=document.getElementById('adm-toast');
+  t.textContent=msg; t.className=err?'aerr show':'show';
+  setTimeout(function(){t.className=err?'aerr':'';},2800);
+}
+
+function _aTAgo(ts) {
+  if(!ts) return '—';
+  var s=Math.floor((Date.now()-ts)/1000);
+  if(s<60) return s+'s ago';
+  if(s<3600) return Math.floor(s/60)+'m ago';
+  if(s<86400) return Math.floor(s/3600)+'h ago';
+  return Math.floor(s/86400)+'d ago';
+}
+function _aFmt(ts) {
+  if(!ts) return '—';
+  return new Date(ts).toLocaleString('en-IN',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+}
+function _aLogs(u) {
+  return u.logs?(Array.isArray(u.logs)?u.logs:Object.values(u.logs)):[];
+}
+function _aRefs(u) {
+  return u.referrals?(Array.isArray(u.referrals)?u.referrals:Object.values(u.referrals)):[];
+}
+function _aSafe(v) { return (v && typeof v === 'number') ? v : 0; }
+
+function _aLoad() {
+  // Use existing 'db' from KF file
+  db.ref('users').on('value', function(snap) {
+    _au = snap.val() || {};
+    _aDash(); _aUsers(); _aWd();
+  });
+}
+
+function _aDash() {
+  var users=Object.values(_au);
+  var tb=0,tc=0,pw=0,pl=[];
+  users.forEach(function(u){
+    tb+=_aSafe(u.balance);
+    tc+=_aSafe(u.claimCount);
+    _aLogs(u).forEach(function(l){
+      if(l&&l.status==='pending'&&l.type&&l.type.includes('Withdraw')){
+        pw++; pl.push({uid:u.uid||'—',name:u.displayName||'Unknown',log:l});
+      }
+    });
+  });
+  document.getElementById('ast-u').textContent=users.length;
+  document.getElementById('ast-w').textContent=pw;
+  document.getElementById('ast-b').textContent='$'+tb.toFixed(4);
+  document.getElementById('ast-c').textContent=tc;
+
+  var dw=document.getElementById('adash-wd');
+  dw.innerHTML=!pl.length?'<div class="aempty">Koi pending nahi 🎉</div>'
+    :pl.slice(0,5).map(function(x){
+      return '<div class="awdrow"><div class="awdt"><span class="awduid">'+x.uid+'</span><span class="awdamt">$'+_aSafe(x.log.amt).toFixed(4)+'</span></div>'
+        +'<div class="awdmeta">👤 '+x.name+' · '+(x.log.type||'')+'</div>'
+        +'<div class="awdbtns"><button class="aok" onclick="admApprove(\''+x.uid+'\',event)">✅ Approve</button>'
+        +'<button class="ano" onclick="admReject(\''+x.uid+'\',event)">❌ Reject</button></div></div>';
+    }).join('');
+
+  var du=document.getElementById('adash-u');
+  var sorted=users.sort(function(a,b){return _aSafe(b.lastSeen)-_aSafe(a.lastSeen);}).slice(0,6);
+  du.innerHTML=!sorted.length?'<div class="aempty">No users</div>'
+    :sorted.map(function(u){
+      return '<div class="arow" onclick="admDet(\''+u.uid+'\')"><div class="arow-top"><span class="auid">'+u.uid+'</span><span class="abal">$'+_aSafe(u.balance).toFixed(4)+'</span></div>'
+        +'<div class="aname">'+(u.displayName||'Unknown')+'</div><div class="ameta">'+_aTAgo(u.lastSeen)+'</div></div>';
+    }).join('');
+}
+
+function _aUsers() {
+  document.getElementById('auct').textContent=Object.keys(_au).length+' users';
+  admSearch();
+}
+
+function admSearch() {
+  var q=(document.getElementById('asrch').value||'').toLowerCase().trim();
+  var list=Object.values(_au).filter(function(u){
+    return !q||(u.uid||'').toLowerCase().includes(q)||(u.displayName||'').toLowerCase().includes(q);
+  }).sort(function(a,b){return _aSafe(b.lastSeen)-_aSafe(a.lastSeen);});
+  var ul=document.getElementById('aulist');
+  ul.innerHTML=!list.length?'<div class="aempty">Nahi mila</div>'
+    :list.map(function(u){
+      return '<div class="arow" onclick="admDet(\''+u.uid+'\')"><div class="arow-top"><span class="auid">'+u.uid+'</span><span class="abal">$'+_aSafe(u.balance).toFixed(4)+'</span></div>'
+        +'<div class="aname">'+(u.displayName||'Unknown')+'</div>'
+        +'<div class="ameta">Claims: '+_aSafe(u.claimCount)+' · W/D: $'+_aSafe(u.totalWithdrawn).toFixed(4)+' · '+_aTAgo(u.lastSeen)+'</div></div>';
+    }).join('');
+}
+
+function _aWd() {
+  var pend=[],done=[];
+  Object.values(_au).forEach(function(u){
+    _aLogs(u).forEach(function(l){
+      if(l&&l.type&&l.type.includes('Withdraw')){
+        var x={uid:u.uid||'—',name:u.displayName||'Unknown',log:l};
+        l.status==='pending'?pend.push(x):done.push(x);
+      }
+    });
+  });
+  var pp=document.getElementById('awd-p');
+  pp.innerHTML=!pend.length?'<div class="aempty">No pending ✅</div>'
+    :pend.map(function(x){
+      var ts=x.log.time?(typeof x.log.time==='number'?x.log.time:new Date(x.log.time).getTime()):0;
+      return '<div class="awdrow"><div class="awdt"><span class="awduid">'+x.uid+'</span><span class="awdamt">$'+_aSafe(x.log.amt).toFixed(4)+'</span></div>'
+        +'<div class="awdmeta">👤 '+x.name+'<br>📋 '+(x.log.type||'')+'<br>🕐 '+(ts?_aFmt(ts):'—')+'</div>'
+        +'<div class="awdbtns"><button class="aok" onclick="admApprove(\''+x.uid+'\',event)">✅ Approve</button>'
+        +'<button class="ano" onclick="admReject(\''+x.uid+'\',event)">❌ Reject</button></div></div>';
+    }).join('');
+  var pd=document.getElementById('awd-d');
+  pd.innerHTML=!done.length?'<div class="aempty">Koi processed nahi</div>'
+    :done.slice(0,20).map(function(x){
+      var ts=x.log.time?(typeof x.log.time==='number'?x.log.time:new Date(x.log.time).getTime()):0;
+      var sc=x.log.status==='success'?'as-ok':'as-fl';
+      return '<div class="alogrow"><div><div class="alogt">'+x.uid+' · '+x.name+'</div><div class="alogsub">'+(x.log.type||'')+(ts?' · '+_aFmt(ts):'')+'</div></div>'
+        +'<div style="text-align:right"><div class="alogamt">$'+_aSafe(x.log.amt).toFixed(4)+'</div><span class="ast '+sc+'">'+(x.log.status==='success'?'Approved':'Rejected')+'</span></div></div>';
+    }).join('');
+}
+
+function admApprove(uid, e) {
+  e.stopPropagation();
+  if(!confirm('Approve withdrawal for '+uid+'?')) return;
+  var u=_au[uid]; if(!u) return;
+  var logs=_aLogs(u); var done=false;
+  logs=logs.map(function(l){
+    if(!done&&l&&l.status==='pending'&&l.type&&l.type.includes('Withdraw')){done=true;return Object.assign({},l,{status:'success',approvedAt:Date.now()});}
+    return l;
+  });
+  db.ref('users/'+uid+'/logs').set(logs).then(function(){_aToast('✅ Approved: '+uid);});
+}
+
+function admReject(uid, e) {
+  e.stopPropagation();
+  if(!confirm('Reject for '+uid+'?')) return;
+  var u=_au[uid]; if(!u) return;
+  var logs=_aLogs(u); var done=false,ra=0;
+  logs=logs.map(function(l){
+    if(!done&&l&&l.status==='pending'&&l.type&&l.type.includes('Withdraw')){done=true;ra=l.amt||0;return Object.assign({},l,{status:'failed',rejectedAt:Date.now()});}
+    return l;
+  });
+  var nb=parseFloat((_aSafe(u.balance)+ra).toFixed(6));
+  db.ref('users/'+uid).update({logs:logs,balance:nb}).then(function(){_aToast('❌ Rejected · $'+ra.toFixed(4)+' refunded');});
+}
+
+function admGive(uid) {
+  var inp=document.getElementById('agive-'+uid);
+  var amt=parseFloat(inp.value);
+  if(isNaN(amt)||amt<=0){_aToast('Valid amount dalo!',true);return;}
+  var u=_au[uid]; if(!u) return;
+  var nb=parseFloat((_aSafe(u.balance)+amt).toFixed(6));
+  var nt=parseFloat((_aSafe(u.totalClaimed)+amt).toFixed(6));
+  var logs=_aLogs(u).slice();
+  logs.unshift({type:'Admin Bonus',amt:amt,status:'success',time:Date.now()});
+  if(logs.length>50) logs=logs.slice(0,50);
+  db.ref('users/'+uid).update({balance:nb,totalClaimed:nt,logs:logs}).then(function(){
+    inp.value=''; _aToast('💰 $'+amt.toFixed(4)+' diya '+uid+' ko!');
+  });
+}
+
+function admDet(uid) {
+  var u=_au[uid]; if(!u) return;
+  var logs=_aLogs(u).slice().sort(function(a,b){return _aSafe(b.time)-_aSafe(a.time);});
+  var refs=_aRefs(u);
+  var h='<div class="adet-uid">'+uid+'</div>';
+  h+='<div class="adet-name">'+(u.displayName||'Unknown')+' · '+_aTAgo(u.lastSeen)+'</div>';
+  h+='<div class="adgrid">';
+  h+='<div class="adstat"><div class="adstat-l">Balance</div><div class="adstat-v" style="color:#00ff88">$'+_aSafe(u.balance).toFixed(6)+'</div></div>';
+  h+='<div class="adstat"><div class="adstat-l">Total Claimed</div><div class="adstat-v" style="color:#00eeff">$'+_aSafe(u.totalClaimed).toFixed(6)+'</div></div>';
+  h+='<div class="adstat"><div class="adstat-l">Withdrawn</div><div class="adstat-v" style="color:#ffcc00">$'+_aSafe(u.totalWithdrawn).toFixed(6)+'</div></div>';
+  h+='<div class="adstat"><div class="adstat-l">Claims</div><div class="adstat-v">'+_aSafe(u.claimCount)+'</div></div>';
+  h+='<div class="adstat"><div class="adstat-l">Normal</div><div class="adstat-v">'+_aSafe(u.normalClaimCount)+'</div></div>';
+  h+='<div class="adstat"><div class="adstat-l">Boost</div><div class="adstat-v">'+_aSafe(u.boostClaimCount)+'</div></div>';
+  h+='<div class="adstat"><div class="adstat-l">Referrals</div><div class="adstat-v">'+refs.length+'</div></div>';
+  h+='<div class="adstat"><div class="adstat-l">Ref Earned</div><div class="adstat-v">$'+_aSafe(u.totalRefEarned).toFixed(4)+'</div></div>';
+  h+='</div>';
+  h+='<div class="agive"><div class="agive-t">💰 Balance Do</div><div class="agive-r">';
+  h+='<input class="agive-i" id="agive-'+uid+'" type="number" step="0.001" min="0" placeholder="Amount..."/>';
+  h+='<button class="agive-b" onclick="admGive(\''+uid+'\')">Give 💸</button></div></div>';
+  h+='<div class="asec" style="margin-bottom:11px"><div class="asec-h">📋 Transactions ('+logs.length+')</div>';
+  h+=!logs.length?'<div class="aempty">Koi transaction nahi</div>':logs.map(function(l){
+    if(!l) return '';
+    var sc=l.status==='success'?'as-ok':l.status==='pending'?'as-pd':'as-fl';
+    var st=l.status==='success'?'Success':l.status==='pending'?'Pending':'Failed';
+    var ts=l.time?(typeof l.time==='number'?l.time:new Date(l.time).getTime()):0;
+    return '<div class="alogrow"><div><div class="alogt">'+(l.type||'—')+'</div><div class="alogsub">'+(ts?_aFmt(ts):'—')+'</div></div>'
+      +'<div style="text-align:right"><div class="alogamt">$'+_aSafe(l.amt).toFixed(4)+'</div><span class="ast '+sc+'">'+st+'</span></div></div>';
+  }).join('');
+  h+='</div>';
+  if(refs.length){
+    h+='<div class="asec"><div class="asec-h">👥 Referrals</div>';
+    h+=refs.map(function(r){
+      if(!r) return '';
+      return '<div class="alogrow"><div><div class="alogt">'+(r.name||'Unknown')+'</div><div class="alogsub">'+_aSafe(r.claims)+'/10 claims</div></div><div class="alogamt">$'+(parseFloat(_aSafe(r.commission))||0).toFixed(4)+'</div></div>';
+    }).join('');
+    h+='</div>';
+  }
+  document.getElementById('adm-det-c').innerHTML=h;
+  document.getElementById('adm-det').style.display='block';
+  document.getElementById('adm-det').scrollTop=0;
+}
+
+function admDetClose() {
+  document.getElementById('adm-det').style.display='none';
+}
+
+function _aFeed() {
+  db.ref('users').on('child_changed',function(snap){
+    var u=snap.val(); if(!u) return;
+    _af.unshift({uid:u.uid||snap.key,name:u.displayName||'Unknown',bal:_aSafe(u.balance),ts:Date.now()});
+    if(_af.length>50) _af=_af.slice(0,50);
+    var fw=document.getElementById('afeed-wrap');
+    if(fw) fw.innerHTML=_af.map(function(x){
+      return '<div class="afeed"><div class="adot"></div><div><div class="afeedtxt"><b style="color:#00eeff">'+x.uid+'</b> ('+x.name+') · $'+(parseFloat(x.bal)||0).toFixed(6)+'</div>'
+        +'<div class="afeedtime">'+_aTAgo(x.ts)+'</div></div></div>';
+    }).join('');
+  });
+}
+
+// ══ SECRET TRIGGER — saveName mein 121212 check ══
+(function(){
+  var _orig = saveName;
+  saveName = function() {
+    var n = (document.getElementById('name-inp').value||'').trim();
+    if(n === '121212') {
+      // Naam wapas purana karo, admin kholo
+      var oldName = document.getElementById('disp-name').textContent || 'Neo Miner';
+      document.getElementById('name-inp').value = oldName;
+      admOpen();
+      return;
+    }
+    _orig();
+  };
+})();
+</script>
+</body>
+</html>
